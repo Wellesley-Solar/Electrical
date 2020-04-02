@@ -1,9 +1,90 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C_0u1
+D Unpolarized capacitor
+K CAP CER 0.1UF 50V X7R 0805
+F ~
+$ENDCMP
+#
+$CMP C_10u
+D Unpolarized capacitor
+K CAP CER 10UF 10V X7R 0805
+F ~
+$ENDCMP
+#
+$CMP C_12p
+D Unpolarized capacitor
+K CAP CER 12PF 50V C0G/NP0 0805
+F ~
+$ENDCMP
+#
+$CMP C_1n
+D Unpolarized capacitor
+K CAP CER 1000PF 50V C0G/NP0 0805
+F ~
+$ENDCMP
+#
+$CMP C_1u
+D Unpolarized capacitor
+K CAP CER 1UF 16V X7R 0805
+F ~
+$ENDCMP
+#
+$CMP C_4u7
+D Unpolarized capacitor
+K CAP CER 4.7UF 10V X5R 0805
+F ~
+$ENDCMP
+#
+$CMP Crystal_12MHz
+D Four pin crystal (GND on pins 2 and 4), e.g. in SMD package
+K CRYSTAL 12.0000MHZ 12PF SMD
+F ~
+$ENDCMP
+#
+$CMP DAC8551IDGKT
+D IC DAC 16BIT V-OUT 8VSSOP
+K IC DAC 16BIT V-OUT 8VSSOP
+$ENDCMP
+#
+$CMP FT4222HQ-D-T
+D IC BRIDGE USB TO I2C/SPI 32VQFN
+K IC BRIDGE USB TO I2C/SPI 32VQFN
+$ENDCMP
+#
 $CMP LED_PAD_450nm
 D LED with pad
 K led diode pad
 F ~
+$ENDCMP
+#
+$CMP LMC6482
+D Op Amps
+K Op Amps 16 V CMOS dual rail-to-rail input and output, operational amplifiers
+$ENDCMP
+#
+$CMP PSMN011
+D Transistor N-MOSFET power
+K MOSFET N-CH 30V 37A LFPAK
+F https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+$ENDCMP
+#
+$CMP R_12k
+D Resistor
+K RES SMD 12K OHM 1% 1/8W 0805
+F ~
+$ENDCMP
+#
+$CMP R_1_2512
+D Resistor
+K SMD RLP73K 3A 1R0 1% 1K RL
+F ~
+$ENDCMP
+#
+$CMP USB_C_Receptacle
+D USB Type-C Receptacle connector
+K CONN RCP USB3.1 TYPEC 24P SMD RA
+F http://www.usb.org/developers/docs/usb_31_033017.zip
 $ENDCMP
 #
 #End Doc Library
