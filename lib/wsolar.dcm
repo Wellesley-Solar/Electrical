@@ -6,6 +6,12 @@ K CAP CER 0.1UF 50V X7R 0805
 F ~
 $ENDCMP
 #
+$CMP C_0u47
+D Unpolarized capacitor
+K CAP CER 0.47UF 10V X7R 0805
+F ~
+$ENDCMP
+#
 $CMP C_10u
 D Unpolarized capacitor
 K CAP CER 10UF 10V X7R 0805
@@ -52,6 +58,18 @@ D IC BRIDGE USB TO I2C/SPI 32VQFN
 K IC BRIDGE USB TO I2C/SPI 32VQFN
 $ENDCMP
 #
+$CMP Jumper_NO_Small
+D Jumper, normally open
+K jumper link bridge
+F ~
+$ENDCMP
+#
+$CMP LED_645nm
+D LED generic
+K LED RED DIFFUSED 0805 SMD
+F ~
+$ENDCMP
+#
 $CMP LED_PAD_450nm
 D LED with pad
 K led diode pad
@@ -63,10 +81,27 @@ D Op Amps
 K Op Amps 16 V CMOS dual rail-to-rail input and output, operational amplifiers
 $ENDCMP
 #
+$CMP MCP2210T-I_SO
+D IC CONVERTER USB-SPI 20-SSOP
+K IC CONVERTER USB-SPI 20-SSOP
+$ENDCMP
+#
 $CMP PSMN011
 D Transistor N-MOSFET power
 K MOSFET N-CH 30V 37A LFPAK
 F https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
+$ENDCMP
+#
+$CMP PTC_1A5
+D variable Resistor (Rheostat)
+K PTC RESET FUSE 33V 1.5A 2920
+F ~
+$ENDCMP
+#
+$CMP PTC_500mA
+D variable Resistor (Rheostat)
+K PTC RESET FUSE 8V 500MA 1206
+F ~
 $ENDCMP
 #
 $CMP R_12k
@@ -78,6 +113,30 @@ $ENDCMP
 $CMP R_1_2512
 D Resistor
 K SMD RLP73K 3A 1R0 1% 1K RL
+F ~
+$ENDCMP
+#
+$CMP R_1k
+D Resistor
+K RES 1K OHM 0.1% 1/8W 0805
+F ~
+$ENDCMP
+#
+$CMP R_39k4
+D Resistor
+K RES 39.2K OHM 0.1% 1/8W 0805
+F ~
+$ENDCMP
+#
+$CMP R_TW_10k
+D Potentiometer
+K THUMBWHEEL POT 10K OHM 0.5W SIDE
+F ~
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
 F ~
 $ENDCMP
 #

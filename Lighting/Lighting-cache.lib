@@ -1,11 +1,83 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C_0u1
+# Device:R
 #
-DEF C_0u1 C 0 10 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power:+5V
+#
+DEF power:+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:PWR_FLAG
+#
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power:VDD
+#
+DEF power:VDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:VDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# wsolar:C_0u1
+#
+DEF wsolar:C_0u1 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_0u1" 25 -100 50 H V L CNN
+F1 "wsolar:C_0u1" 25 -100 50 H V L CNN
 F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C104K5RACAUTO" 225 300 50 H I C CNN "Mfr. #"
@@ -21,11 +93,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_0u47
+# wsolar:C_0u47
 #
-DEF C_0u47 C 0 10 N Y 1 F N
+DEF wsolar:C_0u47 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_0u47" 25 -100 50 H V L CNN
+F1 "wsolar:C_0u47" 25 -100 50 H V L CNN
 F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C474K8RACTU" 225 300 50 H I C CNN "Mfr. #"
@@ -41,11 +113,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_10u
+# wsolar:C_10u
 #
-DEF C_10u C 0 10 N Y 1 F N
+DEF wsolar:C_10u C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_10u" 25 -100 50 H V L CNN
+F1 "wsolar:C_10u" 25 -100 50 H V L CNN
 F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C106K8RACAUTO" 225 300 50 H I C CNN "Mfr. #"
@@ -61,11 +133,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_12p
+# wsolar:C_12p
 #
-DEF C_12p C 0 10 N Y 1 F N
+DEF wsolar:C_12p C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_12p" 25 -100 50 H V L CNN
+F1 "wsolar:C_12p" 25 -100 50 H V L CNN
 F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://api.kemet.com/component-edge/download/datasheet/C0805C120J5GACTU.pdf" 25 100 50 H I C CNN
 F4 "C0805C120J5GACTU" 225 300 50 H I C CNN "Mfr. #"
@@ -81,11 +153,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_1n
+# wsolar:C_1n
 #
-DEF C_1n C 0 10 N Y 1 F N
+DEF wsolar:C_1n C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_1n" 25 -100 50 H V L CNN
+F1 "wsolar:C_1n" 25 -100 50 H V L CNN
 F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C102J5GACTU" 225 300 50 H I C CNN "Mfr. #"
@@ -101,11 +173,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_1u
+# wsolar:C_1u
 #
-DEF C_1u C 0 10 N Y 1 F N
+DEF wsolar:C_1u C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C_1u" 25 -100 50 H V L CNN
+F1 "wsolar:C_1u" 25 -100 50 H V L CNN
 F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C105K4RACAUTO" 225 300 50 H I C CNN "Mfr. #"
@@ -121,31 +193,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_4u7
+# wsolar:Crystal_12MHz
 #
-DEF C_4u7 C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C_4u7" 25 -100 50 H V L CNN
-F2 "wsolar:C_0805" 38 -150 50 H I C CNN
-F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
-F4 "C0805C475K8PACTU" 225 300 50 H I C CNN "Mfr. #"
-F5 "https://www.digikey.com/product-detail/en/kemet/C0805C475K8PACTU/399-3133-1-ND/551638" 125 200 50 H I C CNN "Link"
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Crystal_12MHz
-#
-DEF Crystal_12MHz Y 0 40 Y N 1 F N
+DEF wsolar:Crystal_12MHz Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "Crystal_12MHz" 125 125 50 H V L CNN
+F1 "wsolar:Crystal_12MHz" 125 125 50 H V L CNN
 F2 "wsolar:Kyocera_Crystal" 25 100 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX3225SB_UKY1C-H1-16357-00_Spec.pdf" 125 200 50 H I C CNN
 F4 "CX3225SB12000H0FLJCC" 225 300 50 H I C CNN "Mfr. #"
@@ -170,11 +222,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DAC8551IDGKT
+# wsolar:DAC8551IDGKT
 #
-DEF DAC8551IDGKT U 0 40 Y Y 1 F N
+DEF wsolar:DAC8551IDGKT U 0 40 Y Y 1 F N
 F0 "U" -224 587 50 H V L BNN
-F1 "DAC8551IDGKT" -172 -817 50 H V L BNN
+F1 "wsolar:DAC8551IDGKT" -172 -817 50 H V L BNN
 F2 "wsolar:S-PDSO-G8" 0 0 50 H I L BNN
 F3 "http://www.ti.com/lit/ds/symlink/dac8551.pdf" 0 0 50 H I L BNN
 F4 "DAC8551IDGKT" 0 0 50 H I L BNN "Mfr. #"
@@ -193,57 +245,11 @@ X GND 8 -700 -500 200 R 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# FT4222HQ-D-T
+# wsolar:Jumper_NO_Small
 #
-DEF FT4222HQ-D-T U 0 40 Y Y 1 F N
-F0 "U" -600 950 50 H V C CNN
-F1 "FT4222HQ-D-T" -50 400 50 H V C CNN
-F2 "wsolar:QFN50P500X500X100-33N" -1450 950 50 H I C CNN
-F3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf" -1450 950 50 H I C CNN
-F4 "FT4222HQ-D-T" -400 1150 50 H I C CNN "Mfr. #"
-F5 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4222HQ-D-T/768-1363-ND/8753390" -500 1050 50 H I C CNN "Link"
-DRAW
-S 600 -1000 -650 900 0 1 0 f
-X DEBUGGER 1 -850 200 200 R 50 50 1 1 B
-X MOSI 10 800 300 200 L 50 50 1 1 B
-X IO2 11 800 200 200 L 50 50 1 1 B
-X IO3 12 800 100 200 L 50 50 1 1 B
-X GPIO0/SS1O/SCL 13 800 -200 200 L 50 50 1 1 B
-X GPIO1/SS2O/SDA 14 800 -300 200 L 50 50 1 1 B
-X GPIO2/SS3O/SUSP_OUT 15 800 -400 200 L 50 50 1 1 B
-X GPIO3/WAKEUP/INTR 16 800 -500 200 L 50 50 1 1 B
-X SS0O 17 800 0 200 L 50 50 1 1 O
-X XSCI 18 -850 -450 200 R 50 50 1 1 I
-X XSCO 19 -850 -550 200 R 50 50 1 1 O
-X STEST_RSTN 2 -850 100 200 R 50 50 1 1 I
-X UGND 20 -150 -1200 200 U 50 50 1 1 W
-X RREF 21 -850 -800 200 R 50 50 1 1 W
-X D- 22 -850 500 200 R 50 50 1 1 B
-X D+ 23 -850 600 200 R 50 50 1 1 B
-X UGND 24 -50 -1200 200 U 50 50 1 1 B
-X VOUT3V3 25 200 1100 200 D 50 50 1 1 w
-X VCCIN 26 300 1100 200 D 50 50 1 1 W
-X AGND 27 50 -1200 200 U 50 50 1 1 W
-X DGND 28 150 -1200 200 U 50 50 1 1 W
-X VPP 29 400 1100 200 D 50 50 1 1 W
-X RESETN 3 -850 0 200 R 50 50 1 1 I
-X VBUS_DET 30 -850 800 200 R 50 50 1 1 I
-X BCD_DET 31 800 -700 200 L 50 50 1 1 O
-X SS 32 800 -900 200 L 50 50 1 1 I
-X DCNF0 4 -850 -100 200 R 50 50 1 1 I
-X DCNF1 5 -850 -200 200 R 50 50 1 1 I
-X DGND 6 -250 -1200 200 U 50 50 1 1 W
-X VCCIO 7 100 1100 200 D 50 50 1 1 W
-X SCK 8 800 500 200 L 50 50 1 1 B
-X MISO 9 800 400 200 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Jumper_NO_Small
-#
-DEF Jumper_NO_Small JP 0 30 N N 1 F N
+DEF wsolar:Jumper_NO_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "Jumper_NO_Small" 10 -60 50 H V C CNN
+F1 "wsolar:Jumper_NO_Small" 10 -60 50 H V C CNN
 F2 "wsolar:jumper_2" -100 -20 50 H I C CNN
 F3 "" 0 80 50 H I C CNN
 DRAW
@@ -254,11 +260,11 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# LED_645nm
+# wsolar:LED_645nm
 #
-DEF LED_645nm D 0 40 N N 1 F N
+DEF wsolar:LED_645nm D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED_645nm" 0 -100 50 H V C CNN
+F1 "wsolar:LED_645nm" 0 -100 50 H V C CNN
 F2 "wsolar:LED0805" -100 0 50 H I C CNN
 F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493888/LH%20R974.pdf" 0 100 50 H I C CNN
 F4 "LH R974-LP-1" 100 200 50 H I C CNN "Mfr. #"
@@ -279,11 +285,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED_PAD_450nm
+# wsolar:LED_PAD_450nm
 #
-DEF LED_PAD_450nm D 0 40 Y N 1 F N
+DEF wsolar:LED_PAD_450nm D 0 40 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
-F1 "LED_PAD_450nm" 0 150 50 H V C CNN
+F1 "wsolar:LED_PAD_450nm" 0 150 50 H V C CNN
 F2 "wsolar:SST-20-A120" -100 125 50 H I C CNN
 F3 "https://download.luminus.com/datasheets/Luminus_SST-20-B_Datasheet.pdf" 0 225 50 H I C CNN
 F4 "SST-20-B-A120-R450" 100 325 50 H I C CNN "Mfr. #"
@@ -307,11 +313,11 @@ X PAD 3 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LMC6482
+# wsolar:LMC6482
 #
-DEF LMC6482 U 0 40 Y Y 3 F N
+DEF wsolar:LMC6482 U 0 40 Y Y 3 F N
 F0 "U" 100 150 50 H V C CNN
-F1 "LMC6482" 200 250 50 H V C CNN
+F1 "wsolar:LMC6482" 200 250 50 H V C CNN
 F2 "wsolar:LMC6482AIMX&slash_NOPB" 0 250 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/lmc6482.pdf" 0 250 50 H I C CNN
 F4 "LMC6482AIMX/NOPB" 250 250 50 H I C CNN "Mfr. #"
@@ -330,11 +336,11 @@ X ~ 7 350 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# MCP2210T-I_SO
+# wsolar:MCP2210T-I_SO
 #
-DEF MCP2210T-I_SO U 0 40 Y Y 1 F N
+DEF wsolar:MCP2210T-I_SO U 0 40 Y Y 1 F N
 F0 "U" -391 822 50 H V L BNN
-F1 "MCP2210T-I_SO" -381 -973 50 H V L BNN
+F1 "wsolar:MCP2210T-I_SO" -381 -973 50 H V L BNN
 F2 "wsolar:SOIC127P1030X265-20N" 0 0 50 H I L BNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" 0 0 50 H I L BNN
 F4 "MCP2210T-I/SS" -291 922 50 H I C CNN "Mfr. #"
@@ -364,11 +370,11 @@ X MOSI 9 600 600 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
-# PSMN011
+# wsolar:PSMN011
 #
-DEF PSMN011 Q 0 0 Y N 1 F N
+DEF wsolar:PSMN011 Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "PSMN011" 200 -50 50 H V L CNN
+F1 "wsolar:PSMN011" 200 -50 50 H V L CNN
 F2 "wsolar:Power_SO8" 200 100 50 H I C CNN
 F3 "https://assets.nexperia.com/documents/data-sheet/PSMN011-30YLC.pdf" 200 50 50 H I C CNN
 F4 "PSMN011-30YLC,115" 400 250 50 H I C CNN "Mfr. #"
@@ -398,11 +404,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PTC_1A5
+# wsolar:PTC_1A5
 #
-DEF PTC_1A5 R 0 0 N Y 1 F N
+DEF wsolar:PTC_1A5 R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
-F1 "PTC_1A5" -100 -200 50 V V L CNN
+F1 "wsolar:PTC_1A5" -100 -200 50 V V L CNN
 F2 "wsolar:RESC2920" -70 0 50 V I C CNN
 F3 "0ZCF0150FF2C" 100 -100 50 V I C CNN
 F4 "0ZCF0150FF2C" 200 0 50 V I C CNN "Mfr. #"
@@ -418,11 +424,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PTC_500mA
+# wsolar:PTC_500mA
 #
-DEF PTC_500mA R 0 0 N Y 1 F N
+DEF wsolar:PTC_500mA R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
-F1 "PTC_500mA" -100 -200 50 V V L CNN
+F1 "wsolar:PTC_500mA" -100 -200 50 V V L CNN
 F2 "wsolar:RESC3216X125N" -70 0 50 V I C CNN
 F3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" 100 -100 50 V I C CNN
 F4 "0ZCJ0050FF2G" 200 0 50 V I C CNN "Mfr. #"
@@ -438,30 +444,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_12k
+# wsolar:R_1_2512
 #
-DEF R_12k R 0 0 N Y 1 F N
+DEF wsolar:R_1_2512 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_12k" -100 0 50 V V C CNN
-F2 "wsolar:R0805" -70 0 50 V I C CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 80 0 50 V I C CNN
-F4 "CRG0805F12K" 180 100 50 V I C CNN "Mfr. #"
-F5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0805F12K/A126337CT-ND/7603392" 280 200 50 V I C CNN "Link"
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R_1_2512
-#
-DEF R_1_2512 R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R_1_2512" -100 0 50 V V C CNN
+F1 "wsolar:R_1_2512" -100 0 50 V V C CNN
 F2 "wsolar:R_2512_2W" -70 0 50 V I C CNN
 F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773269&DocType=DS&DocLang=English" 80 0 50 V I C CNN
 F4 "RLP73K3A1R0FTDF" 180 100 50 V I C CNN "Mfr. #"
@@ -476,11 +463,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1k
+# wsolar:R_1k
 #
-DEF R_1k R 0 0 N Y 1 F N
+DEF wsolar:R_1k R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_1k" -100 0 50 V V C CNN
+F1 "wsolar:R_1k" -100 0 50 V V C CNN
 F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "ERA-6AEB102V" 180 100 50 V I C CNN "Mfr. #"
@@ -495,11 +482,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_39k4
+# wsolar:R_39k4
 #
-DEF R_39k4 R 0 0 N Y 1 F N
+DEF wsolar:R_39k4 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_39k4" -100 0 50 V V C CNN
+F1 "wsolar:R_39k4" -100 0 50 V V C CNN
 F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "CRG0805F12K" 180 100 50 V I C CNN "Mfr. #"
@@ -514,11 +501,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_TW_10k
+# wsolar:R_TW_10k
 #
-DEF R_TW_10k RV 0 40 Y N 1 F N
+DEF wsolar:R_TW_10k RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_TW_10k" -100 0 50 V V C CNN
+F1 "wsolar:R_TW_10k" -100 0 50 V V C CNN
 F2 "wsolar:POT_3352W" -275 -100 50 V I C CNN
 F3 "https://www.bourns.com/docs/Product-Datasheets/3352.pdf" -175 0 50 V I C CNN
 F4 "3352W-1-103LF" -75 100 50 V I C CNN "Mfr. #"
@@ -536,25 +523,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TEST
+# wsolar:TestPoint
 #
-DEF TEST U 0 40 Y Y 3 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "TEST" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-X ~ ~ -50 -50 200 R 50 50 1 1 W
-X ~ ~-UB -50 -50 200 R 50 50 2 1 W
-X ~ ~-UC -50 -50 200 R 50 50 3 1 W
-ENDDRAW
-ENDDEF
-#
-# TestPoint
-#
-DEF TestPoint TP 0 30 N N 1 F N
+DEF wsolar:TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "TestPoint" 0 200 50 H V C CNN
+F1 "wsolar:TestPoint" 0 200 50 H V C CNN
 F2 "wsolar:TP" 200 0 50 H I C CNN
 F3 "N/A" 200 0 50 H I C CNN
 $FPLIST
@@ -567,11 +540,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_C_Receptacle
+# wsolar:USB_C_Receptacle
 #
-DEF USB_C_Receptacle J 0 40 Y Y 1 F N
+DEF wsolar:USB_C_Receptacle J 0 40 Y Y 1 F N
 F0 "J" -400 1450 50 H V L CNN
-F1 "USB_C_Receptacle" 400 1450 50 H V R CNN
+F1 "wsolar:USB_C_Receptacle" 400 1450 50 H V R CNN
 F2 "wsolar:MOLEX_105450-0101" 150 0 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf" 150 0 50 H I C CNN
 F4 "1054500101" -300 1550 50 H I C CNN "Mfr. #"
