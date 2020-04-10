@@ -92,6 +92,12 @@ K MOSFET N-CH 30V 37A LFPAK
 F https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
 $ENDCMP
 #
+$CMP PTC_1A
+D variable Resistor (Rheostat)
+K PTC RESET FUSE 6V 1A 1206
+F ~
+$ENDCMP
+#
 $CMP PTC_1A5
 D variable Resistor (Rheostat)
 K PTC RESET FUSE 33V 1.5A 2920
@@ -101,6 +107,12 @@ $ENDCMP
 $CMP PTC_500mA
 D variable Resistor (Rheostat)
 K PTC RESET FUSE 8V 500MA 1206
+F ~
+$ENDCMP
+#
+$CMP R_10k
+D Resistor
+K RES 10K OHM 0.1% 1/8W 0805
 F ~
 $ENDCMP
 #
@@ -122,9 +134,21 @@ K RES 1K OHM 0.1% 1/8W 0805
 F ~
 $ENDCMP
 #
+$CMP R_35k7
+D Resistor
+K RES SMD 35.7K OHM 0.5% 1/4W 0805
+F ~
+$ENDCMP
+#
 $CMP R_39k4
 D Resistor
 K RES 39.2K OHM 0.1% 1/8W 0805
+F ~
+$ENDCMP
+#
+$CMP R_5k1
+D Resistor
+K RES SMD 5.1K OHM 0.5% 1/4W 0805
 F ~
 $ENDCMP
 #
@@ -144,6 +168,11 @@ $CMP USB_C_Receptacle
 D USB Type-C Receptacle connector
 K CONN RCP USB3.1 TYPEC 24P SMD RA
 F http://www.usb.org/developers/docs/usb_31_033017.zip
+$ENDCMP
+#
+$CMP UTC2000-I_MG
+D IC PORT CTLR USB TYPE C 16QFN
+K IC PORT CTLR USB TYPE C 16QFN
 $ENDCMP
 #
 #End Doc Library

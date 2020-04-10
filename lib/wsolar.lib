@@ -398,13 +398,33 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# PTC_1A
+#
+DEF PTC_1A R 0 0 N Y 1 F N
+F0 "R" 100 -100 50 V V L CNN
+F1 "PTC_1A" -100 -150 50 V V L CNN
+F2 "wsolar:RESC3216X125N" -70 0 50 V I C CNN
+F3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" 100 -100 50 V I C CNN
+F4 "0ZCJ0100FF2E" 200 0 50 V I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0100FF2E/507-1806-1-ND/4156243" 300 100 50 V I C CNN "Link"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+P 5 0 1 0 100 60 100 100 60 100 100 100 -80 -80 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # PTC_1A5
 #
 DEF PTC_1A5 R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
 F1 "PTC_1A5" -100 -200 50 V V L CNN
 F2 "wsolar:RESC2920" -70 0 50 V I C CNN
-F3 "0ZCF0150FF2C" 100 -100 50 V I C CNN
+F3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcf-series.pdf" 100 -100 50 V I C CNN
 F4 "0ZCF0150FF2C" 200 0 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCF0150FF2C/507-1746-1-ND/4156178" 300 100 50 V I C CNN "Link"
 $FPLIST
@@ -433,6 +453,25 @@ $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
 P 5 0 1 0 100 60 100 100 60 100 100 100 -80 -80 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_10k
+#
+DEF R_10k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_10k" -100 0 50 V V C CNN
+F2 "wsolar:R0805" -70 0 50 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
+F4 "ERA-6AEB103V" 180 100 50 V I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB103V/P10KDACT-ND/1465971" 280 200 50 V I C CNN "Link"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
@@ -495,6 +534,25 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_35k7
+#
+DEF R_35k7 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_35k7" -100 0 50 V V C CNN
+F2 "wsolar:R0805" -70 0 50 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
+F4 "ERJ-PB6D3572V" 180 100 50 V I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D3572V/P21194CT-ND/6215449" 280 200 50 V I C CNN "Link"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_39k4
 #
 DEF R_39k4 R 0 0 N Y 1 F N
@@ -504,6 +562,25 @@ F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "CRG0805F12K" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3922V/P39-2KDADKR-ND/3075510" 280 200 50 V I C CNN "Link"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_5k1
+#
+DEF R_5k1 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R_5k1" -100 0 50 V V C CNN
+F2 "wsolar:R0805" -70 0 50 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
+F4 "ERJ-PB6D5101V" 180 100 50 V I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D5101V/P21099CT-ND/6215354" 280 200 50 V I C CNN "Link"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -646,6 +723,37 @@ X D- B7 600 400 200 L 50 50 1 1 B
 X SBU2 B8 600 -1300 200 L 50 50 1 1 B
 X VBUS B9 600 1000 200 L 50 50 1 1 W
 X SHIELD S1 -300 -1600 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# UTC2000-I_MG
+#
+DEF UTC2000-I_MG U 0 40 Y Y 1 F N
+F0 "U" -800 750 50 H V L BNN
+F1 "UTC2000-I_MG" -800 -700 50 H V L BNN
+F2 "wsolar:QFN50P300X300X90-17N" -600 -800 50 H I L BNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en575231" -700 -800 50 H I L BNN
+F4 "UTC2000-I/MG" -500 -350 50 H I L BNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/microchip-technology/UTC2000-I-MG/UTC2000-I-MG-ND/5639493" -750 -750 50 H I L BNN "Link"
+DRAW
+S -800 700 700 -600 0 1 0 f
+X OCS# 1 -1000 600 200 R 40 40 0 0 I
+X PPC_EN/3.0A_IND# 10 -1000 -100 200 R 40 40 0 0 O
+X PLUG_ORIENTATION# 11 -1000 0 200 R 40 40 0 0 O
+X VMON 12 -1000 450 200 R 40 40 0 0 I
+X VSS 13 900 300 200 L 40 40 0 0 W
+X VDD 16 900 600 200 L 40 40 0 0 W
+X EPAD 17 900 200 200 L 40 40 0 0 W
+X CFG_SEL 2 900 -100 200 L 40 40 0 0 I
+X ENABLE 3 900 0 200 L 40 40 0 0 I
+X FAULT_IND 4 -1000 -300 200 R 40 40 0 0 O
+X AUDIO_ADAPTER/CONNECTED# 5 -1000 -200 200 R 40 40 0 0 O
+X CC2 6 -1000 200 200 R 40 40 0 0 I
+X CC1 7 -1000 300 200 R 40 40 0 0 I
+X VCONN2_OUT#/LEGACY_IND# 8 -1000 -400 200 R 40 40 0 0 O
+X VCONN1_OUT#/1.5A_IND# 9 -1000 -500 200 R 40 40 0 0 O
+X ~ 14 900 -500 200 L 50 50 1 1 N
+X ~ 15 900 -400 200 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
