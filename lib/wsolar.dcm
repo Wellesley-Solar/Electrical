@@ -81,6 +81,11 @@ D Op Amps
 K Op Amps 16 V CMOS dual rail-to-rail input and output, operational amplifiers
 $ENDCMP
 #
+$CMP MCP1501_2v5
+D IC VREF SERIES 0.1% 8SOIC
+K IC VREF SERIES 0.1% 8SOIC
+$ENDCMP
+#
 $CMP MCP2210T-I_SO
 D IC CONVERTER USB-SPI 20-SSOP
 K IC CONVERTER USB-SPI 20-SSOP

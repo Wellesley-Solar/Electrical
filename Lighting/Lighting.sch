@@ -952,57 +952,6 @@ Wire Wire Line
 	11750 8600 11600 8600
 Connection ~ 11750 7800
 Wire Wire Line
-	10100 7800 10100 8000
-Wire Wire Line
-	10100 8000 10200 8000
-Connection ~ 10100 7800
-$Comp
-L wsolar:C_0u1 C12
-U 1 1 5E9B3094
-P 9550 8150
-F 0 "C12" H 9665 8196 50  0000 L CNN
-F 1 "C_0u1" H 9665 8105 50  0000 L CNN
-F 2 "wsolar:C_0805" H 9588 8000 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 9575 8250 50  0001 C CNN
-F 4 "C0805C104K5RACAUTO" H 9775 8450 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 9675 8350 50  0001 C CNN "Link"
-	1    9550 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:C_1n C11
-U 1 1 5E9B78E1
-P 9200 8150
-F 0 "C11" H 9315 8196 50  0000 L CNN
-F 1 "C_1n" H 9315 8105 50  0000 L CNN
-F 2 "wsolar:C_0805" H 9238 8000 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 9225 8250 50  0001 C CNN
-F 4 "C0805C102J5GACTU" H 9425 8450 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C102J5GACTU/399-1136-1-ND/411411" H 9325 8350 50  0001 C CNN "Link"
-	1    9200 8150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 8000 9550 8000
-Wire Wire Line
-	9550 8000 10100 8000
-Connection ~ 9550 8000
-Connection ~ 10100 8000
-Wire Wire Line
-	9200 8300 9550 8300
-$Comp
-L power:GND #PWR018
-U 1 1 5E9CE034
-P 9200 8300
-F 0 "#PWR018" H 9200 8050 50  0001 C CNN
-F 1 "GND" H 9205 8127 50  0000 C CNN
-F 2 "" H 9200 8300 50  0001 C CNN
-F 3 "" H 9200 8300 50  0001 C CNN
-	1    9200 8300
-	1    0    0    -1  
-$EndComp
-Connection ~ 9200 8300
-Wire Wire Line
 	4400 7100 4550 7100
 Wire Wire Line
 	4400 7200 4550 7200
@@ -1905,10 +1854,10 @@ Wire Wire Line
 Wire Wire Line
 	14650 8200 14650 8400
 $Comp
-L wsolar:Jumper_NO_Small JP?
+L wsolar:Jumper_NO_Small JP5
 U 1 1 5EEBC836
 P 4100 1500
-F 0 "JP?" H 4100 1685 50  0000 C CNN
+F 0 "JP5" H 4100 1685 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 4100 1594 50  0000 C CNN
 F 2 "wsolar:jumper_2" H 4000 1480 50  0001 C CNN
 F 3 "~" H 4100 1580 50  0001 C CNN
@@ -1930,10 +1879,10 @@ Connection ~ 3800 1950
 Wire Wire Line
 	3800 1950 3950 1950
 $Comp
-L wsolar:TestPoint TP?
+L wsolar:TestPoint TP3
 U 1 1 5E918EEC
 P 13300 2500
-F 0 "TP?" H 13358 2620 50  0000 L CNN
+F 0 "TP3" H 13358 2620 50  0000 L CNN
 F 1 "TestPoint" H 13358 2529 50  0000 L CNN
 F 2 "wsolar:TP" H 13500 2500 50  0001 C CNN
 F 3 "N/A" H 13500 2500 50  0001 C CNN
@@ -1941,10 +1890,10 @@ F 3 "N/A" H 13500 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wsolar:TestPoint TP?
+L wsolar:TestPoint TP4
 U 1 1 5E918FB2
 P 13800 2500
-F 0 "TP?" H 13858 2620 50  0000 L CNN
+F 0 "TP4" H 13858 2620 50  0000 L CNN
 F 1 "TestPoint" H 13858 2529 50  0000 L CNN
 F 2 "wsolar:TP" H 14000 2500 50  0001 C CNN
 F 3 "N/A" H 14000 2500 50  0001 C CNN
@@ -1952,10 +1901,10 @@ F 3 "N/A" H 14000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wsolar:TestPoint TP?
+L wsolar:TestPoint TP2
 U 1 1 5E919052
 P 12800 2500
-F 0 "TP?" H 12858 2620 50  0000 L CNN
+F 0 "TP2" H 12858 2620 50  0000 L CNN
 F 1 "TestPoint" H 12858 2529 50  0000 L CNN
 F 2 "wsolar:TP" H 13000 2500 50  0001 C CNN
 F 3 "N/A" H 13000 2500 50  0001 C CNN
@@ -1963,10 +1912,10 @@ F 3 "N/A" H 13000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wsolar:TestPoint TP?
+L wsolar:TestPoint TP1
 U 1 1 5E9190FE
 P 12300 2500
-F 0 "TP?" H 12358 2620 50  0000 L CNN
+F 0 "TP1" H 12358 2620 50  0000 L CNN
 F 1 "TestPoint" H 12358 2529 50  0000 L CNN
 F 2 "wsolar:TP" H 12500 2500 50  0001 C CNN
 F 3 "N/A" H 12500 2500 50  0001 C CNN
@@ -1974,10 +1923,10 @@ F 3 "N/A" H 12500 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR037
 U 1 1 5E928643
 P 13100 2650
-F 0 "#PWR?" H 13100 2400 50  0001 C CNN
+F 0 "#PWR037" H 13100 2400 50  0001 C CNN
 F 1 "GND" H 13105 2477 50  0000 C CNN
 F 2 "" H 13100 2650 50  0001 C CNN
 F 3 "" H 13100 2650 50  0001 C CNN
@@ -1997,4 +1946,127 @@ Wire Wire Line
 Connection ~ 13100 2500
 Wire Wire Line
 	13100 2500 13300 2500
+Wire Wire Line
+	9200 8000 9200 8600
+Wire Wire Line
+	9200 8600 9000 8600
+Wire Wire Line
+	9200 8700 9200 8600
+Connection ~ 9200 8600
+$Comp
+L wsolar:C_0u47 C11
+U 1 1 5E99DCF1
+P 7050 8750
+F 0 "C11" H 7165 8796 50  0000 L CNN
+F 1 "C_0u47" H 7165 8705 50  0000 L CNN
+F 2 "wsolar:C_0805" H 7088 8600 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 7075 8850 50  0001 C CNN
+F 4 "C0805C474K8RACTU" H 7275 9050 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C474K8RACTU/399-9247-1-ND/3522765" H 7175 8950 50  0001 C CNN "Link"
+	1    7050 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 8600 7400 8600
+Wire Wire Line
+	7400 8600 7400 8800
+Wire Wire Line
+	7400 8800 7650 8800
+Connection ~ 7400 8600
+Wire Wire Line
+	7400 8600 7650 8600
+Wire Wire Line
+	7650 8700 7550 8700
+Wire Wire Line
+	7550 8700 7550 8900
+Wire Wire Line
+	7550 8900 7650 8900
+Connection ~ 7550 8900
+$Comp
+L power:GND #PWR036
+U 1 1 5E9F2411
+P 8250 9250
+F 0 "#PWR036" H 8250 9000 50  0001 C CNN
+F 1 "GND" H 8255 9077 50  0000 C CNN
+F 2 "" H 8250 9250 50  0001 C CNN
+F 3 "" H 8250 9250 50  0001 C CNN
+	1    8250 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR018
+U 1 1 5E9F24DA
+P 7400 8600
+F 0 "#PWR018" H 7400 8450 50  0001 C CNN
+F 1 "VDD" H 7417 8773 50  0000 C CNN
+F 2 "" H 7400 8600 50  0001 C CNN
+F 3 "" H 7400 8600 50  0001 C CNN
+	1    7400 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 8800 8950 8800
+Wire Wire Line
+	8950 8800 8950 8900
+Wire Wire Line
+	8950 8900 8850 8900
+Wire Wire Line
+	8950 8900 8950 9000
+Wire Wire Line
+	8950 9000 9100 9000
+Connection ~ 8950 8900
+Wire Wire Line
+	9100 9150 9100 9000
+Connection ~ 9100 9000
+Wire Wire Line
+	9100 9000 9200 9000
+Wire Wire Line
+	7050 8900 7350 8900
+Wire Wire Line
+	7350 8900 7350 9150
+Wire Wire Line
+	7350 9150 8250 9150
+Connection ~ 7350 8900
+Wire Wire Line
+	7350 8900 7550 8900
+Wire Wire Line
+	8250 9150 8250 9250
+Connection ~ 8250 9150
+Wire Wire Line
+	8250 9150 9100 9150
+Wire Wire Line
+	8850 8700 9000 8700
+Wire Wire Line
+	9000 8700 9000 8600
+Connection ~ 9000 8600
+Wire Wire Line
+	9000 8600 8850 8600
+$Comp
+L wsolar:MCP1501_2v5 U5
+U 1 1 5EAE6333
+P 8250 8700
+F 0 "U5" H 8250 9065 50  0000 C CNN
+F 1 "MCP1501_2v5" H 8250 8974 50  0000 C CNN
+F 2 "wsolar:SOIC127P600X175-8N" H 8200 8950 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en584595" H 8200 8950 50  0001 C CNN
+F 4 "MCP1501T-25E/SN" H 8100 9050 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP1501T-25E-SN/MCP1501T-25E-SNCT-ND/9642931" H 8200 9150 50  0001 C CNN "Link"
+	1    8250 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:C_1n C12
+U 1 1 5E9F2665
+P 9200 8850
+F 0 "C12" H 9315 8896 50  0000 L CNN
+F 1 "C_1n" H 9315 8805 50  0000 L CNN
+F 2 "wsolar:C_0805" H 9238 8700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 9225 8950 50  0001 C CNN
+F 4 "C0805C102J5GACTU" H 9425 9150 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C102J5GACTU/399-1136-1-ND/411411" H 9325 9050 50  0001 C CNN "Link"
+	1    9200 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 8000 10200 8000
 $EndSCHEMATC
