@@ -2277,8 +2277,8 @@
   (gr_line (start 204.795 124.643) (end 264.795 124.643) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 264.795 64.643) (end 269.795 64.643) (angle -90) (layer Edge.Cuts) (width 0.2))
 
-  (via (at 210.82 66.802) (size 13) (drill 10.25) (layers F.Cu B.Cu) (net 0) (tstamp 5EA1A5CC))
-  (via (at 261.62 117.602) (size 13) (drill 10.25) (layers F.Cu B.Cu) (net 0))
+  (via (at 210.82 66.802) (size 7) (drill 5.1) (layers F.Cu B.Cu) (net 0) (tstamp 5EA1A5CC))
+  (via (at 261.62 117.602) (size 7) (drill 5.1) (layers F.Cu B.Cu) (net 0))
   (via (at 258.7244 76.4032) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1) (tstamp 5EA03A17))
   (via (at 258.1656 75.8444) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 241.7064 77.978) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
