@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Lighting-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -14,50 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+5V #PWR024
-U 1 1 5E673F3E
-P 13200 1750
-F 0 "#PWR024" H 13200 1600 50  0001 C CNN
-F 1 "+5V" H 13215 1923 50  0000 C CNN
-F 2 "" H 13200 1750 50  0001 C CNN
-F 3 "" H 13200 1750 50  0001 C CNN
-	1    13200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG03
-U 1 1 5E673FD0
-P 13200 1750
-F 0 "#FLG03" H 13200 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 13200 1923 50  0000 C CNN
-F 2 "" H 13200 1750 50  0001 C CNN
-F 3 "~" H 13200 1750 50  0001 C CNN
-	1    13200 1750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 5E674007
-P 13650 1750
-F 0 "#PWR026" H 13650 1500 50  0001 C CNN
-F 1 "GND" H 13655 1577 50  0000 C CNN
-F 2 "" H 13650 1750 50  0001 C CNN
-F 3 "" H 13650 1750 50  0001 C CNN
-	1    13650 1750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG04
-U 1 1 5E674045
-P 13650 1750
-F 0 "#FLG04" H 13650 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 13650 1923 50  0000 C CNN
-F 2 "" H 13650 1750 50  0001 C CNN
-F 3 "~" H 13650 1750 50  0001 C CNN
-	1    13650 1750
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR032
 U 1 1 5E7FCC64
 P 14500 8750
@@ -67,17 +24,6 @@ F 2 "" H 14500 8750 50  0001 C CNN
 F 3 "" H 14500 8750 50  0001 C CNN
 	1    14500 8750
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5E7FCDC5
-P 10200 2200
-F 0 "#FLG02" H 10200 2275 50  0001 C CNN
-F 1 "PWR_FLAG" V 10300 2250 50  0000 C CNN
-F 2 "" H 10200 2200 50  0001 C CNN
-F 3 "~" H 10200 2200 50  0001 C CNN
-	1    10200 2200
-	0    1    1    0   
 $EndComp
 Text Notes 9300 1600 0    50   ~ 0
 signal
@@ -176,17 +122,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 2150 2600 2050
 Connection ~ 2600 2050
-$Comp
-L power:VDD #PWR022
-U 1 1 5E8049D4
-P 11550 1900
-F 0 "#PWR022" H 11550 1750 50  0001 C CNN
-F 1 "VDD" H 11567 2073 50  0000 C CNN
-F 2 "" H 11550 1900 50  0001 C CNN
-F 3 "" H 11550 1900 50  0001 C CNN
-	1    11550 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10000 1900 10200 1900
 Wire Wire Line
@@ -228,71 +163,10 @@ F 5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/R
 	1    14650 8050
 	1    0    0    -1  
 $EndComp
-$Comp
-L wsolar:USB_C_Receptacle J1
-U 1 1 5E7FE4AE
-P 1850 3250
-F 0 "J1" H 1955 4817 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 1955 4726 50  0000 C CNN
-F 2 "wsolar:MOLEX_105450-0101" H 2000 3250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf" H 2000 3250 50  0001 C CNN
-F 4 "1054500101" H 1550 4800 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/molex/1054500101/WM12856CT-ND/5843891" H 1650 4900 50  0001 C CNN "Link"
-	1    1850 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:USB_C_Receptacle J2
-U 1 1 5E7FE5E7
-P 9400 3200
-F 0 "J2" H 9505 4767 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 9505 4676 50  0000 C CNN
-F 2 "wsolar:MOLEX_105450-0101" H 9550 3200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf" H 9550 3200 50  0001 C CNN
-F 4 "1054500101" H 9100 4750 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/molex/1054500101/WM12856CT-ND/5843891" H 9200 4850 50  0001 C CNN "Link"
-	1    9400 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 5E7FEF9E
-P 13800 7500
-F 0 "#PWR028" H 13800 7250 50  0001 C CNN
-F 1 "GND" H 13805 7327 50  0000 C CNN
-F 2 "" H 13800 7500 50  0001 C CNN
-F 3 "" H 13800 7500 50  0001 C CNN
-	1    13800 7500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13550 7350 13450 7350
 Wire Wire Line
 	13450 7350 13450 7750
-$Comp
-L power:VDD #PWR027
-U 1 1 5E8000FA
-P 13800 6300
-F 0 "#PWR027" H 13800 6150 50  0001 C CNN
-F 1 "VDD" H 13817 6473 50  0000 C CNN
-F 2 "" H 13800 6300 50  0001 C CNN
-F 3 "" H 13800 6300 50  0001 C CNN
-	1    13800 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:LMC6482 U4
-U 1 1 5E8008D1
-P 13800 7250
-F 0 "U4" H 13900 7450 50  0000 L CNN
-F 1 "LMC6482" H 13900 7550 50  0000 L CNN
-F 2 "wsolar:LMC6482AIMX&slash_NOPB" H 13800 7500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmc6482.pdf" H 13800 7500 50  0001 C CNN
-F 4 "LMC6482AIMX/NOPB" H 14050 7500 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/texas-instruments/LMC6482AIMX-NOPB/LMC6482AIMX-NOPBCT-ND/3440139" H 14150 7600 50  0001 C CNN "Link"
-	1    13800 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14200 7250 14150 7250
 Wire Wire Line
@@ -334,17 +208,6 @@ F 1 "+5V" H 15015 1923 50  0000 C CNN
 F 2 "" H 15000 1750 50  0001 C CNN
 F 3 "" H 15000 1750 50  0001 C CNN
 	1    15000 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR030
-U 1 1 5E80B5AF
-P 14300 1750
-F 0 "#PWR030" H 14300 1600 50  0001 C CNN
-F 1 "VDD" H 14317 1923 50  0000 C CNN
-F 2 "" H 14300 1750 50  0001 C CNN
-F 3 "" H 14300 1750 50  0001 C CNN
-	1    14300 1750
 	1    0    0    -1  
 $EndComp
 Text Notes 14500 1450 0    50   ~ 0
@@ -406,47 +269,7 @@ Wire Wire Line
 Connection ~ 13800 5550
 Wire Wire Line
 	13800 5550 14150 5550
-$Comp
-L wsolar:C_1u C19
-U 1 1 5E81F41C
-P 13500 6650
-F 0 "C19" H 13615 6696 50  0000 L CNN
-F 1 "C_1u" H 13550 6550 50  0000 L CNN
-F 2 "wsolar:C_0805" H 13538 6500 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 13525 6750 50  0001 C CNN
-F 4 "C0805C105K4RACAUTO" H 13725 6950 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 13625 6850 50  0001 C CNN "Link"
-	1    13500 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:C_0u1 C17
-U 1 1 5E81F511
-P 13100 6650
-F 0 "C17" H 13215 6696 50  0000 L CNN
-F 1 "C_0u1" H 13150 6550 50  0000 L CNN
-F 2 "wsolar:C_0805" H 13138 6500 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 13125 6750 50  0001 C CNN
-F 4 "C0805C104K5RACAUTO" H 13325 6950 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 13225 6850 50  0001 C CNN "Link"
-	1    13100 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13800 6300 13800 6500
-Wire Wire Line
-	13500 6500 13800 6500
-Connection ~ 13800 6500
-Wire Wire Line
-	13800 6500 13800 6800
-Wire Wire Line
-	13100 6800 13300 6800
-Wire Wire Line
-	13500 6800 13800 6800
 Connection ~ 13300 6800
-Connection ~ 13800 6800
-Wire Wire Line
-	13800 6800 13800 7000
 $Comp
 L power:GND #PWR025
 U 1 1 5E826F6D
@@ -461,51 +284,38 @@ $EndComp
 $Comp
 L wsolar:C_10u C7
 U 1 1 5E8271A8
-P 5050 2100
-F 0 "C7" H 5165 2146 50  0000 L CNN
-F 1 "C_10u" H 5050 2000 50  0000 L CNN
-F 2 "wsolar:C_0805" H 5088 1950 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 5075 2200 50  0001 C CNN
-F 4 "C0805C106K8RACAUTO" H 5275 2400 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8RACAUTO/399-15687-1-ND/7427567" H 5175 2300 50  0001 C CNN "Link"
-	1    5050 2100
+P 3450 2100
+F 0 "C7" H 3565 2146 50  0000 L CNN
+F 1 "C_10u" H 3450 2000 50  0000 L CNN
+F 2 "wsolar:C_0805" H 3488 1950 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3475 2200 50  0001 C CNN
+F 4 "C0805C106K8RACAUTO" H 3675 2400 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8RACAUTO/399-15687-1-ND/7427567" H 3575 2300 50  0001 C CNN "Link"
+	1    3450 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L wsolar:C_1u C6
 U 1 1 5E8271B1
-P 4700 2100
-F 0 "C6" H 4815 2146 50  0000 L CNN
-F 1 "C_1u" H 4750 2000 50  0000 L CNN
-F 2 "wsolar:C_0805" H 4738 1950 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4725 2200 50  0001 C CNN
-F 4 "C0805C105K4RACAUTO" H 4925 2400 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 4825 2300 50  0001 C CNN "Link"
-	1    4700 2100
+P 3100 2100
+F 0 "C6" H 3215 2146 50  0000 L CNN
+F 1 "C_1u" H 3150 2000 50  0000 L CNN
+F 2 "wsolar:C_0805" H 3138 1950 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 3125 2200 50  0001 C CNN
+F 4 "C0805C105K4RACAUTO" H 3325 2400 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 3225 2300 50  0001 C CNN "Link"
+	1    3100 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5E828D2E
-P 5050 2250
-F 0 "#PWR012" H 5050 2000 50  0001 C CNN
-F 1 "GND" H 5055 2077 50  0000 C CNN
-F 2 "" H 5050 2250 50  0001 C CNN
-F 3 "" H 5050 2250 50  0001 C CNN
-	1    5050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:DAC8551IDGKT U3
-U 1 1 5E834FFC
-P 10900 8100
-F 0 "U3" H 10900 8770 50  0000 C CNN
-F 1 "DAC8551IDGKT" H 10900 8679 50  0000 C CNN
-F 2 "wsolar:S-PDSO-G8" H 10900 8100 50  0001 L BNN
-F 3 "http://www.ti.com/lit/ds/symlink/dac8551.pdf" H 10900 8100 50  0001 L BNN
-F 4 "DAC8551IDGKT" H 10900 8100 50  0001 L BNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/texas-instruments/DAC8551IDGKT/296-18290-1-ND/807620" H 10876 8887 50  0001 L BNN "Link"
-	1    10900 8100
+P 3450 2250
+F 0 "#PWR012" H 3450 2000 50  0001 C CNN
+F 1 "GND" H 3455 2077 50  0000 C CNN
+F 2 "" H 3450 2250 50  0001 C CNN
+F 3 "" H 3450 2250 50  0001 C CNN
+	1    3450 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -520,63 +330,20 @@ F 3 "" H 10200 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wsolar:C_1u C10
-U 1 1 5E8352D2
-P 9150 7700
-F 0 "C10" H 9265 7746 50  0000 L CNN
-F 1 "C_1u" H 9200 7600 50  0000 L CNN
-F 2 "wsolar:C_0805" H 9188 7550 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 9175 7800 50  0001 C CNN
-F 4 "C0805C105K4RACAUTO" H 9375 8000 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 9275 7900 50  0001 C CNN "Link"
-	1    9150 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:C_0u1 C9
-U 1 1 5E8352DB
-P 8750 7700
-F 0 "C9" H 8865 7746 50  0000 L CNN
-F 1 "C_0u1" H 8800 7600 50  0000 L CNN
-F 2 "wsolar:C_0805" H 8788 7550 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 8775 7800 50  0001 C CNN
-F 4 "C0805C104K5RACAUTO" H 8975 8000 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 8875 7900 50  0001 C CNN "Link"
-	1    8750 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR019
-U 1 1 5E8363B3
-P 10100 7350
-F 0 "#PWR019" H 10100 7200 50  0001 C CNN
-F 1 "VDD" H 10117 7523 50  0000 C CNN
-F 2 "" H 10100 7350 50  0001 C CNN
-F 3 "" H 10100 7350 50  0001 C CNN
-	1    10100 7350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR016
 U 1 1 5E836410
-P 8750 7850
-F 0 "#PWR016" H 8750 7600 50  0001 C CNN
-F 1 "GND" H 8755 7677 50  0000 C CNN
-F 2 "" H 8750 7850 50  0001 C CNN
-F 3 "" H 8750 7850 50  0001 C CNN
-	1    8750 7850
+P 8750 8000
+F 0 "#PWR016" H 8750 7750 50  0001 C CNN
+F 1 "GND" H 8755 7827 50  0000 C CNN
+F 2 "" H 8750 8000 50  0001 C CNN
+F 3 "" H 8750 8000 50  0001 C CNN
+	1    8750 8000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10100 7350 10100 7550
 Wire Wire Line
-	10100 7550 9150 7550
-Wire Wire Line
-	9150 7550 8750 7550
-Connection ~ 9150 7550
-Wire Wire Line
-	9150 7850 8750 7850
-Connection ~ 8750 7850
+	9150 8000 8750 8000
 Wire Wire Line
 	10200 7800 10100 7800
 Wire Wire Line
@@ -810,19 +577,6 @@ Wire Wire Line
 Wire Wire Line
 	14650 7850 14650 7900
 Connection ~ 14500 7850
-$Comp
-L wsolar:MCP2210T-I_SO U1
-U 1 1 5E8DDE22
-P 3800 7800
-F 0 "U1" H 3800 8765 50  0000 C CNN
-F 1 "MCP2210T-I_SO" H 3800 8674 50  0000 C CNN
-F 2 "wsolar:SOIC127P1030X265-20N" H 3800 7800 50  0001 L BNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" H 3800 7800 50  0001 L BNN
-F 4 "MCP2210T-I/SS" H 3509 8722 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP2210T-I-SS/MCP2210T-I-SSCT-ND/8628832" H 3609 8822 50  0001 C CNN "Link"
-	1    3800 7800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10200 2200 10200 2100
 Connection ~ 10200 2100
@@ -844,7 +598,7 @@ Wire Wire Line
 	2600 2250 2450 2250
 Connection ~ 2600 2150
 Wire Wire Line
-	4700 2250 5050 2250
+	3100 2250 3450 2250
 $Comp
 L wsolar:C_0u47 C5
 U 1 1 5E962CB3
@@ -870,45 +624,6 @@ F 3 "" H 3200 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wsolar:C_10u C13
-U 1 1 5E975BD3
-P 10750 2050
-F 0 "C13" H 10865 2096 50  0000 L CNN
-F 1 "C_10u" H 10750 1950 50  0000 L CNN
-F 2 "wsolar:C_0805" H 10788 1900 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 10775 2150 50  0001 C CNN
-F 4 "C0805C106K8RACAUTO" H 10975 2350 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8RACAUTO/399-15687-1-ND/7427567" H 10875 2250 50  0001 C CNN "Link"
-	1    10750 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:C_0u1 C1
-U 1 1 5E975BDC
-P 1900 7300
-F 0 "C1" H 2015 7346 50  0000 L CNN
-F 1 "C_0u1" H 1950 7200 50  0000 L CNN
-F 2 "wsolar:C_0805" H 1938 7150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1925 7400 50  0001 C CNN
-F 4 "C0805C104K5RACAUTO" H 2125 7600 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 2025 7500 50  0001 C CNN "Link"
-	1    1900 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:C_1u C2
-U 1 1 5E975BE5
-P 2250 7300
-F 0 "C2" H 2365 7346 50  0000 L CNN
-F 1 "C_1u" H 2300 7200 50  0000 L CNN
-F 2 "wsolar:C_0805" H 2288 7150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2275 7400 50  0001 C CNN
-F 4 "C0805C105K4RACAUTO" H 2475 7600 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 2375 7500 50  0001 C CNN "Link"
-	1    2250 7300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 5E975BF0
 P 1900 7500
@@ -919,30 +634,8 @@ F 3 "" H 1900 7500 50  0001 C CNN
 	1    1900 7500
 	1    0    0    -1  
 $EndComp
-$Comp
-L wsolar:TestPoint J_VDD1
-U 1 1 5E975BF9
-P 10200 1900
-F 0 "J_VDD1" H 10100 2200 50  0000 L CNN
-F 1 "TestPoint" H 10050 2100 50  0000 L CNN
-F 2 "wsolar:TP" H 10400 1900 50  0001 C CNN
-F 3 "N/A" H 10400 1900 50  0001 C CNN
-	1    10200 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 7500 2250 7500
-$Comp
-L power:VDD #PWR04
-U 1 1 5E981A7D
-P 2750 7100
-F 0 "#PWR04" H 2750 6950 50  0001 C CNN
-F 1 "VDD" H 2767 7273 50  0000 C CNN
-F 2 "" H 2750 7100 50  0001 C CNN
-F 3 "" H 2750 7100 50  0001 C CNN
-	1    2750 7100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11600 7800 11750 7800
 Wire Wire Line
@@ -976,17 +669,6 @@ Wire Wire Line
 	2950 7500 2950 7200
 Wire Wire Line
 	2950 7200 3200 7200
-$Comp
-L wsolar:Jumper_NO_Small JP1
-U 1 1 5EA3AE41
-P 2500 7500
-F 0 "JP1" H 2500 7300 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2500 7400 50  0000 C CNN
-F 2 "" H 2500 7500 50  0001 C CNN
-F 3 "~" H 2500 7500 50  0001 C CNN
-	1    2500 7500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 7500 2250 7500
 Wire Wire Line
@@ -1018,19 +700,6 @@ F 1 "Jumper_NO_Small" H 12750 7050 50  0000 C CNN
 F 2 "wsolar:jumper_2" H 12650 7130 50  0001 C CNN
 F 3 "~" H 12750 7230 50  0001 C CNN
 	1    12750 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:R_39k4 R17
-U 1 1 5EA6EB4B
-P 12250 6700
-F 0 "R17" H 12320 6746 50  0000 L CNN
-F 1 "R_39k4" H 12320 6655 50  0000 L CNN
-F 2 "wsolar:R0805" V 12180 6700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 12330 6700 50  0001 C CNN
-F 4 "CRG0805F12K" V 12430 6800 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3922V/P39-2KDADKR-ND/3075510" V 12530 6900 50  0001 C CNN "Link"
-	1    12250 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1068,10 +737,10 @@ Wire Wire Line
 Wire Wire Line
 	12850 7150 13050 7150
 $Comp
-L wsolar:TestPoint Vsink1
+L wsolar:TestPoint Vs1
 U 1 1 5EAB96EB
 P 14700 7750
-F 0 "Vsink1" H 14758 7870 50  0000 L CNN
+F 0 "Vs1" H 14758 7870 50  0000 L CNN
 F 1 "TestPoint" H 14758 7779 50  0000 L CNN
 F 2 "wsolar:TP" H 14900 7750 50  0001 C CNN
 F 3 "N/A" H 14900 7750 50  0001 C CNN
@@ -1081,65 +750,26 @@ $EndComp
 Wire Wire Line
 	14500 7750 14700 7750
 Connection ~ 14500 7750
-Connection ~ 5050 2250
+Connection ~ 3450 2250
 Wire Wire Line
 	4700 1850 4700 1950
-Wire Wire Line
-	5050 1950 4700 1950
-Connection ~ 4700 1950
-$Comp
-L wsolar:C_1u C15
-U 1 1 5EAF35C7
-P 11550 2050
-F 0 "C15" H 11665 2096 50  0000 L CNN
-F 1 "C_1u" H 11600 1950 50  0000 L CNN
-F 2 "wsolar:C_0805" H 11588 1900 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 11575 2150 50  0001 C CNN
-F 4 "C0805C105K4RACAUTO" H 11775 2350 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 11675 2250 50  0001 C CNN "Link"
-	1    11550 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:C_0u1 C14
-U 1 1 5EAF35D0
-P 11150 2050
-F 0 "C14" H 11265 2096 50  0000 L CNN
-F 1 "C_0u1" H 11200 1950 50  0000 L CNN
-F 2 "wsolar:C_0805" H 11188 1900 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 11175 2150 50  0001 C CNN
-F 4 "C0805C104K5RACAUTO" H 11375 2350 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 11275 2250 50  0001 C CNN "Link"
-	1    11150 2050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5EAF35D7
-P 11150 2200
-F 0 "#PWR021" H 11150 1950 50  0001 C CNN
-F 1 "GND" H 11155 2027 50  0000 C CNN
-F 2 "" H 11150 2200 50  0001 C CNN
-F 3 "" H 11150 2200 50  0001 C CNN
-	1    11150 2200
+P 11150 2500
+F 0 "#PWR021" H 11150 2250 50  0001 C CNN
+F 1 "GND" H 11155 2327 50  0000 C CNN
+F 2 "" H 11150 2500 50  0001 C CNN
+F 3 "" H 11150 2500 50  0001 C CNN
+	1    11150 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11550 2200 11150 2200
-Connection ~ 11150 2200
+	11550 2500 11150 2500
 Wire Wire Line
-	10750 1900 11150 1900
-Wire Wire Line
-	11150 1900 11550 1900
-Connection ~ 11150 1900
-Wire Wire Line
-	10750 2200 11150 2200
-Connection ~ 11550 1900
+	10750 2500 11150 2500
 Wire Wire Line
 	10200 1900 10300 1900
-Wire Wire Line
-	10600 1900 10750 1900
-Connection ~ 10750 1900
 $Comp
 L wsolar:PTC_1A5 R11
 U 1 1 5EB3B207
@@ -1156,60 +786,7 @@ $EndComp
 Wire Wire Line
 	4250 1950 4400 1950
 Wire Wire Line
-	2600 1950 3400 1950
-Connection ~ 13500 6500
-Connection ~ 13500 6800
-Wire Wire Line
-	13300 6800 13500 6800
-Wire Wire Line
-	13100 6500 13500 6500
-Connection ~ 13100 6500
-Wire Wire Line
-	12250 6500 12700 6500
-$Comp
-L wsolar:C_1n C16
-U 1 1 5EB60AC5
-P 12700 6650
-F 0 "C16" H 12815 6696 50  0000 L CNN
-F 1 "C_1n" H 12815 6605 50  0000 L CNN
-F 2 "wsolar:C_0805" H 12738 6500 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 12725 6750 50  0001 C CNN
-F 4 "C0805C102J5GACTU" H 12925 6950 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C102J5GACTU/399-1136-1-ND/411411" H 12825 6850 50  0001 C CNN "Link"
-	1    12700 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12700 6500 13100 6500
-Connection ~ 13100 6800
-Wire Wire Line
-	12700 6800 13100 6800
-Connection ~ 10200 2200
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5EB805CB
-P 2600 2250
-F 0 "#FLG01" H 2600 2325 50  0001 C CNN
-F 1 "PWR_FLAG" H 2600 2423 50  0000 C CNN
-F 2 "" H 2600 2250 50  0001 C CNN
-F 3 "~" H 2600 2250 50  0001 C CNN
-	1    2600 2250
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 2250
-$Comp
-L wsolar:R_1k R20
-U 1 1 5EBABE25
-P 14300 2000
-F 0 "R20" H 14370 2046 50  0000 L CNN
-F 1 "R_1k" H 14370 1955 50  0000 L CNN
-F 2 "wsolar:R0805" V 14230 2000 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 14380 2000 50  0001 C CNN
-F 4 "ERA-6AEB102V" V 14480 2100 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" V 14580 2200 50  0001 C CNN "Link"
-	1    14300 2000
-	1    0    0    -1  
-$EndComp
+	2600 1950 3100 1950
 $Comp
 L wsolar:R_1k R23
 U 1 1 5EBB3864
@@ -1342,50 +919,6 @@ CS_DAC
 Wire Wire Line
 	9950 8100 10200 8100
 Wire Wire Line
-	2600 7500 2750 7500
-$Comp
-L wsolar:R_1k R1
-U 1 1 5E9092FB
-P 2750 7350
-F 0 "R1" H 2820 7396 50  0000 L CNN
-F 1 "R_1k" H 2820 7305 50  0000 L CNN
-F 2 "wsolar:R0805" V 2680 7350 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 2830 7350 50  0001 C CNN
-F 4 "ERA-6AEB102V" V 2930 7450 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" V 3030 7550 50  0001 C CNN "Link"
-	1    2750 7350
-	1    0    0    -1  
-$EndComp
-Connection ~ 2750 7500
-Wire Wire Line
-	2750 7500 2950 7500
-$Comp
-L wsolar:UTC2000-I_MG U2
-U 1 1 5E94A443
-P 5450 3550
-F 0 "U2" H 5400 4415 50  0000 C CNN
-F 1 "UTC2000-I_MG" H 5400 4324 50  0000 C CNN
-F 2 "wsolar:QFN50P300X300X90-17N" H 4850 2750 50  0001 L BNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en575231" H 4750 2750 50  0001 L BNN
-F 4 "UTC2000-I/MG" H 4950 3200 50  0001 L BNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/UTC2000-I-MG/UTC2000-I-MG-ND/5639493" H 4700 2800 50  0001 L BNN "Link"
-	1    5450 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:C_0u1 C8
-U 1 1 5E94A579
-P 6600 3100
-F 0 "C8" H 6715 3146 50  0000 L CNN
-F 1 "C_0u1" H 6715 3055 50  0000 L CNN
-F 2 "wsolar:C_0805" H 6638 2950 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6625 3200 50  0001 C CNN
-F 4 "C0805C104K5RACAUTO" H 6825 3400 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 6725 3300 50  0001 C CNN "Link"
-	1    6600 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6350 2950 6600 2950
 Wire Wire Line
 	6600 3250 6350 3250
@@ -1393,7 +926,6 @@ Wire Wire Line
 	6350 3350 6600 3350
 Wire Wire Line
 	6600 3350 6600 3250
-Connection ~ 6600 3250
 Wire Wire Line
 	6600 3350 6850 3350
 Wire Wire Line
@@ -1410,18 +942,6 @@ F 3 "" H 6850 3400 50  0001 C CNN
 	1    6850 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDD #PWR014
-U 1 1 5E96C4B7
-P 6600 2950
-F 0 "#PWR014" H 6600 2800 50  0001 C CNN
-F 1 "VDD" H 6617 3123 50  0000 C CNN
-F 2 "" H 6600 2950 50  0001 C CNN
-F 3 "" H 6600 2950 50  0001 C CNN
-	1    6600 2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 6600 2950
 $Comp
 L wsolar:R_10k R6
 U 1 1 5E97F3EB
@@ -1500,7 +1020,6 @@ Wire Wire Line
 	2800 3950 2800 4050
 Wire Wire Line
 	3200 3950 3200 4050
-Connection ~ 12700 6500
 Connection ~ 14150 5100
 $Comp
 L wsolar:R_10k R14
@@ -1549,34 +1068,32 @@ NoConn ~ 4450 2950
 $Comp
 L wsolar:R_35k7 R4
 U 1 1 5EAE141E
-P 3400 2150
-F 0 "R4" H 3470 2196 50  0000 L CNN
-F 1 "R_35k7" H 3470 2105 50  0000 L CNN
-F 2 "wsolar:R0805" V 3330 2150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 3480 2150 50  0001 C CNN
-F 4 "ERJ-PB6D3572V" V 3580 2250 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D3572V/P21194CT-ND/6215449" V 3680 2350 50  0001 C CNN "Link"
-	1    3400 2150
+P 3800 2300
+F 0 "R4" H 3870 2346 50  0000 L CNN
+F 1 "R_35k7" H 3870 2255 50  0000 L CNN
+F 2 "wsolar:R0805" V 3730 2300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 3880 2300 50  0001 C CNN
+F 4 "ERJ-PB6D3572V" V 3980 2400 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D3572V/P21194CT-ND/6215449" V 4080 2500 50  0001 C CNN "Link"
+	1    3800 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 1950 3400 2000
-Connection ~ 3400 1950
+	3800 1950 3800 2150
+Connection ~ 3800 1950
 Wire Wire Line
-	3400 1950 3800 1950
-Wire Wire Line
-	3400 2300 3400 2350
+	3800 2450 3800 2500
 $Comp
 L wsolar:R_5k1 R5
 U 1 1 5EB04762
-P 3400 2550
-F 0 "R5" H 3470 2596 50  0000 L CNN
-F 1 "R_5k1" H 3470 2505 50  0000 L CNN
-F 2 "wsolar:R0805" V 3330 2550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 3480 2550 50  0001 C CNN
-F 4 "ERJ-PB6D5101V" V 3580 2650 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D5101V/P21099CT-ND/6215354" V 3680 2750 50  0001 C CNN "Link"
-	1    3400 2550
+P 3800 2700
+F 0 "R5" H 3870 2746 50  0000 L CNN
+F 1 "R_5k1" H 3870 2655 50  0000 L CNN
+F 2 "wsolar:R0805" V 3730 2700 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 3880 2700 50  0001 C CNN
+F 4 "ERJ-PB6D5101V" V 3980 2800 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D5101V/P21099CT-ND/6215354" V 4080 2900 50  0001 C CNN "Link"
+	1    3800 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1608,23 +1125,23 @@ $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5EB049F1
-P 3400 2700
-F 0 "#PWR09" H 3400 2450 50  0001 C CNN
-F 1 "GND" H 3405 2527 50  0000 C CNN
-F 2 "" H 3400 2700 50  0001 C CNN
-F 3 "" H 3400 2700 50  0001 C CNN
-	1    3400 2700
+P 3800 2850
+F 0 "#PWR09" H 3800 2600 50  0001 C CNN
+F 1 "GND" H 3805 2677 50  0000 C CNN
+F 2 "" H 3800 2850 50  0001 C CNN
+F 3 "" H 3800 2850 50  0001 C CNN
+	1    3800 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 2350 3700 2350
+	3800 2500 4250 2500
 Wire Wire Line
-	3700 2350 3700 3100
+	4250 2500 4250 3100
 Wire Wire Line
-	3700 3100 4450 3100
-Connection ~ 3400 2350
+	4250 3100 4450 3100
+Connection ~ 3800 2500
 Wire Wire Line
-	3400 2350 3400 2400
+	3800 2500 3800 2550
 NoConn ~ 4450 3850
 NoConn ~ 4450 3550
 $Comp
@@ -1639,17 +1156,6 @@ F 4 "LH R974-LP-1" H 4550 4650 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604" H 4650 4750 50  0001 C CNN "Link"
 	1    4450 4450
 	0    1    1    0   
-$EndComp
-$Comp
-L power:VDD #PWR06
-U 1 1 5EB6788B
-P 2950 4550
-F 0 "#PWR06" H 2950 4400 50  0001 C CNN
-F 1 "VDD" H 2967 4723 50  0000 C CNN
-F 2 "" H 2950 4550 50  0001 C CNN
-F 3 "" H 2950 4550 50  0001 C CNN
-	1    2950 4550
-	1    0    0    -1  
 $EndComp
 $Comp
 L wsolar:R_1k R8
@@ -1769,8 +1275,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 5250 3500 5150
 Wire Wire Line
-	2950 4550 2950 5250
-Wire Wire Line
 	3500 5250 3850 5250
 Wire Wire Line
 	3850 5250 3850 5150
@@ -1798,21 +1302,8 @@ F 5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0100FF2E/507-180
 	1    10450 1900
 	0    1    -1   0   
 $EndComp
-$Comp
-L wsolar:Jumper_NO_Small JP2
-U 1 1 5ED9C9E8
-P 11900 6700
-F 0 "JP2" V 11946 6652 50  0000 R CNN
-F 1 "Jumper_NO_Small" H 12200 6800 50  0000 R CNN
-F 2 "wsolar:jumper_2" H 11800 6680 50  0001 C CNN
-F 3 "~" H 11900 6780 50  0001 C CNN
-	1    11900 6700
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	12250 6500 11900 6500
-Wire Wire Line
-	11900 6500 11900 6600
 Connection ~ 12250 6500
 Wire Wire Line
 	11900 6800 11900 6900
@@ -1821,18 +1312,6 @@ Wire Wire Line
 Connection ~ 12250 6900
 Wire Wire Line
 	12250 6900 12250 7000
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5EDEACDA
-P 3200 8000
-F 0 "#FLG0101" H 3200 8075 50  0001 C CNN
-F 1 "PWR_FLAG" H 3200 8174 50  0000 C CNN
-F 2 "" H 3200 8000 50  0001 C CNN
-F 3 "~" H 3200 8000 50  0001 C CNN
-	1    3200 8000
-	1    0    0    -1  
-$EndComp
-Connection ~ 3200 8000
 Connection ~ 2250 7500
 Wire Wire Line
 	1900 7100 2250 7100
@@ -1849,9 +1328,9 @@ Wire Wire Line
 Wire Wire Line
 	13450 7750 14500 7750
 Wire Wire Line
-	14350 8200 14350 8400
+	14350 8200 14350 8300
 Wire Wire Line
-	14650 8200 14650 8400
+	14650 8200 14650 8300
 $Comp
 L wsolar:Jumper_NO_Small JP5
 U 1 1 5EEBC836
@@ -1874,77 +1353,8 @@ Wire Wire Line
 	4000 1500 3800 1500
 Wire Wire Line
 	3800 1500 3800 1950
-Connection ~ 3800 1950
 Wire Wire Line
 	3800 1950 3950 1950
-$Comp
-L wsolar:TestPoint TP3
-U 1 1 5E918EEC
-P 13300 2500
-F 0 "TP3" H 13358 2620 50  0000 L CNN
-F 1 "TestPoint" H 13358 2529 50  0000 L CNN
-F 2 "wsolar:TP" H 13500 2500 50  0001 C CNN
-F 3 "N/A" H 13500 2500 50  0001 C CNN
-	1    13300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:TestPoint TP4
-U 1 1 5E918FB2
-P 13800 2500
-F 0 "TP4" H 13858 2620 50  0000 L CNN
-F 1 "TestPoint" H 13858 2529 50  0000 L CNN
-F 2 "wsolar:TP" H 14000 2500 50  0001 C CNN
-F 3 "N/A" H 14000 2500 50  0001 C CNN
-	1    13800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:TestPoint TP2
-U 1 1 5E919052
-P 12800 2500
-F 0 "TP2" H 12858 2620 50  0000 L CNN
-F 1 "TestPoint" H 12858 2529 50  0000 L CNN
-F 2 "wsolar:TP" H 13000 2500 50  0001 C CNN
-F 3 "N/A" H 13000 2500 50  0001 C CNN
-	1    12800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L wsolar:TestPoint TP1
-U 1 1 5E9190FE
-P 12300 2500
-F 0 "TP1" H 12358 2620 50  0000 L CNN
-F 1 "TestPoint" H 12358 2529 50  0000 L CNN
-F 2 "wsolar:TP" H 12500 2500 50  0001 C CNN
-F 3 "N/A" H 12500 2500 50  0001 C CNN
-	1    12300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR037
-U 1 1 5E928643
-P 13100 2650
-F 0 "#PWR037" H 13100 2400 50  0001 C CNN
-F 1 "GND" H 13105 2477 50  0000 C CNN
-F 2 "" H 13100 2650 50  0001 C CNN
-F 3 "" H 13100 2650 50  0001 C CNN
-	1    13100 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12300 2500 12800 2500
-Wire Wire Line
-	12800 2500 13100 2500
-Connection ~ 12800 2500
-Wire Wire Line
-	13800 2500 13300 2500
-Connection ~ 13300 2500
-Wire Wire Line
-	13100 2500 13100 2650
-Connection ~ 13100 2500
-Wire Wire Line
-	13100 2500 13300 2500
 Wire Wire Line
 	9200 8000 9200 8600
 Wire Wire Line
@@ -1967,20 +1377,6 @@ F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C474K8RACTU/399-9247-1
 $EndComp
 Wire Wire Line
 	7050 8600 7400 8600
-Wire Wire Line
-	7400 8600 7400 8800
-Wire Wire Line
-	7400 8800 7650 8800
-Connection ~ 7400 8600
-Wire Wire Line
-	7400 8600 7650 8600
-Wire Wire Line
-	7650 8700 7550 8700
-Wire Wire Line
-	7550 8700 7550 8900
-Wire Wire Line
-	7550 8900 7650 8900
-Connection ~ 7550 8900
 $Comp
 L power:GND #PWR036
 U 1 1 5E9F2411
@@ -1990,17 +1386,6 @@ F 1 "GND" H 8255 9077 50  0000 C CNN
 F 2 "" H 8250 9250 50  0001 C CNN
 F 3 "" H 8250 9250 50  0001 C CNN
 	1    8250 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR018
-U 1 1 5E9F24DA
-P 7400 8600
-F 0 "#PWR018" H 7400 8450 50  0001 C CNN
-F 1 "VDD" H 7417 8773 50  0000 C CNN
-F 2 "" H 7400 8600 50  0001 C CNN
-F 3 "" H 7400 8600 50  0001 C CNN
-	1    7400 8600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2027,8 +1412,6 @@ Wire Wire Line
 	7350 9150 8250 9150
 Connection ~ 7350 8900
 Wire Wire Line
-	7350 8900 7550 8900
-Wire Wire Line
 	8250 9150 8250 9250
 Connection ~ 8250 9150
 Wire Wire Line
@@ -2040,19 +1423,6 @@ Wire Wire Line
 Connection ~ 9000 8600
 Wire Wire Line
 	9000 8600 8850 8600
-$Comp
-L wsolar:MCP1501_2v5 U5
-U 1 1 5EAE6333
-P 8250 8700
-F 0 "U5" H 8250 9065 50  0000 C CNN
-F 1 "MCP1501_2v5" H 8250 8974 50  0000 C CNN
-F 2 "wsolar:SOIC127P600X175-8N" H 8200 8950 50  0001 C CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en584595" H 8200 8950 50  0001 C CNN
-F 4 "MCP1501T-25E/SN" H 8100 9050 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP1501T-25E-SN/MCP1501T-25E-SNCT-ND/9642931" H 8200 9150 50  0001 C CNN "Link"
-	1    8250 8700
-	1    0    0    -1  
-$EndComp
 $Comp
 L wsolar:C_1n C12
 U 1 1 5E9F2665
@@ -2068,4 +1438,704 @@ F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C102J5GACTU/399-1136-1
 $EndComp
 Wire Wire Line
 	9200 8000 10200 8000
+NoConn ~ 16200 6950
+$Comp
+L power:GND #PWR038
+U 1 1 5EA1D9C3
+P 15400 7150
+F 0 "#PWR038" H 15400 6900 50  0001 C CNN
+F 1 "GND" H 15405 6977 50  0000 C CNN
+F 2 "" H 15400 7150 50  0001 C CNN
+F 3 "" H 15400 7150 50  0001 C CNN
+	1    15400 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 7050 15400 7050
+Wire Wire Line
+	15400 7050 15400 7150
+Wire Wire Line
+	13800 6250 13800 6500
+Wire Wire Line
+	13800 6250 14000 6250
+$Comp
+L power:VCC #PWR0102
+U 1 1 5EB37233
+P 11550 1900
+F 0 "#PWR0102" H 11550 1750 50  0001 C CNN
+F 1 "VCC" H 11567 2073 50  0000 C CNN
+F 2 "" H 11550 1900 50  0001 C CNN
+F 3 "" H 11550 1900 50  0001 C CNN
+	1    11550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5EB3783B
+P 14300 1750
+F 0 "#PWR0103" H 14300 1600 50  0001 C CNN
+F 1 "VCC" H 14317 1923 50  0000 C CNN
+F 2 "" H 14300 1750 50  0001 C CNN
+F 3 "" H 14300 1750 50  0001 C CNN
+	1    14300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5EB38567
+P 7400 8500
+F 0 "#PWR0106" H 7400 8350 50  0001 C CNN
+F 1 "VCC" H 7417 8673 50  0000 C CNN
+F 2 "" H 7400 8500 50  0001 C CNN
+F 3 "" H 7400 8500 50  0001 C CNN
+	1    7400 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5EB38735
+P 2750 7100
+F 0 "#PWR0107" H 2750 6950 50  0001 C CNN
+F 1 "VCC" H 2767 7273 50  0000 C CNN
+F 2 "" H 2750 7100 50  0001 C CNN
+F 3 "" H 2750 7100 50  0001 C CNN
+	1    2750 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 5EB38BA6
+P 2950 4550
+F 0 "#PWR0108" H 2950 4400 50  0001 C CNN
+F 1 "VCC" H 2967 4723 50  0000 C CNN
+F 2 "" H 2950 4550 50  0001 C CNN
+F 3 "" H 2950 4550 50  0001 C CNN
+	1    2950 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4550 2950 5250
+$Comp
+L power:VCC #PWR0109
+U 1 1 5EB38FDC
+P 6600 2800
+F 0 "#PWR0109" H 6600 2650 50  0001 C CNN
+F 1 "VCC" H 6617 2973 50  0000 C CNN
+F 2 "" H 6600 2800 50  0001 C CNN
+F 3 "" H 6600 2800 50  0001 C CNN
+	1    6600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5EB38005
+P 10100 7350
+F 0 "#PWR0105" H 10100 7200 50  0001 C CNN
+F 1 "VCC" H 10117 7523 50  0000 C CNN
+F 2 "" H 10100 7350 50  0001 C CNN
+F 3 "" H 10100 7350 50  0001 C CNN
+	1    10100 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 13800 6250
+$Comp
+L power:VCC #PWR0104
+U 1 1 5EB37B8A
+P 13800 6250
+F 0 "#PWR0104" H 13800 6100 50  0001 C CNN
+F 1 "VCC" H 13817 6423 50  0000 C CNN
+F 2 "" H 13800 6250 50  0001 C CNN
+F 3 "" H 13800 6250 50  0001 C CNN
+	1    13800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5E673FD0
+P 13200 1750
+F 0 "#FLG03" H 13200 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 13200 1923 50  0000 C CNN
+F 2 "" H 13200 1750 50  0001 C CNN
+F 3 "~" H 13200 1750 50  0001 C CNN
+	1    13200 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR024
+U 1 1 5E673F3E
+P 13200 1750
+F 0 "#PWR024" H 13200 1600 50  0001 C CNN
+F 1 "+5V" H 13215 1923 50  0000 C CNN
+F 2 "" H 13200 1750 50  0001 C CNN
+F 3 "" H 13200 1750 50  0001 C CNN
+	1    13200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5E674007
+P 13650 1750
+F 0 "#PWR026" H 13650 1500 50  0001 C CNN
+F 1 "GND" H 13655 1577 50  0000 C CNN
+F 2 "" H 13650 1750 50  0001 C CNN
+F 3 "" H 13650 1750 50  0001 C CNN
+	1    13650 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 8800 7650 8800
+Connection ~ 11150 2500
+Wire Wire Line
+	10750 2400 10750 2500
+Wire Wire Line
+	11150 2400 11150 2500
+Wire Wire Line
+	11550 2400 11550 2500
+$Comp
+L power:VCC #PWR0101
+U 1 1 5EC277FE
+P 12850 1750
+F 0 "#PWR0101" H 12850 1600 50  0001 C CNN
+F 1 "VCC" H 12867 1923 50  0000 C CNN
+F 2 "" H 12850 1750 50  0001 C CNN
+F 3 "" H 12850 1750 50  0001 C CNN
+	1    12850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EC279AF
+P 12850 1750
+F 0 "#FLG0102" H 12850 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 12850 1923 50  0000 C CNN
+F 2 "" H 12850 1750 50  0001 C CNN
+F 3 "~" H 12850 1750 50  0001 C CNN
+	1    12850 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10600 1900 10750 1900
+Wire Wire Line
+	10750 1900 10750 2100
+Connection ~ 10750 1900
+Wire Wire Line
+	10750 1900 11150 1900
+Wire Wire Line
+	11150 2100 11150 1900
+Connection ~ 11150 1900
+Wire Wire Line
+	11150 1900 11550 1900
+Wire Wire Line
+	11550 1900 11550 2100
+Connection ~ 11550 1900
+Wire Wire Line
+	9150 7850 9150 8000
+Wire Wire Line
+	8750 7850 8750 8000
+Connection ~ 8750 8000
+Wire Wire Line
+	7350 8900 7650 8900
+Wire Wire Line
+	7350 8700 7350 8900
+Connection ~ 7400 8600
+Wire Wire Line
+	7400 8600 7400 8800
+Wire Wire Line
+	7400 8500 7400 8600
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5ED419D9
+P 13650 1750
+F 0 "#FLG0103" H 13650 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 13650 1923 50  0000 C CNN
+F 2 "" H 13650 1750 50  0001 C CNN
+F 3 "~" H 13650 1750 50  0001 C CNN
+	1    13650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L wsolar:DAC8551IDGKT U3
+U 1 1 5E834FFC
+P 10900 8100
+F 0 "U3" H 10900 8770 50  0000 C CNN
+F 1 "DAC8551IDGKT" H 10900 8679 50  0000 C CNN
+F 2 "wsolar:S-PDSO-G8" H 10900 8100 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/dac8551.pdf" H 10900 8100 50  0001 L BNN
+F 4 "DAC8551IDGKT" H 10900 8100 50  0001 L BNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/DAC8551IDGKT/296-18290-1-ND/807620" H 10876 8887 50  0001 L BNN "Link"
+	1    10900 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:C_0u1 C9
+U 1 1 5E8352DB
+P 8750 7700
+F 0 "C9" H 8865 7746 50  0000 L CNN
+F 1 "C_0u1" H 8800 7600 50  0000 L CNN
+F 2 "wsolar:C_0805" H 8788 7550 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 8775 7800 50  0001 C CNN
+F 4 "C0805C104K5RACAUTO" H 8975 8000 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 8875 7900 50  0001 C CNN "Link"
+	1    8750 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 7550 8750 7550
+Wire Wire Line
+	10100 7550 9150 7550
+Connection ~ 9150 7550
+$Comp
+L wsolar:C_1u C10
+U 1 1 5E8352D2
+P 9150 7700
+F 0 "C10" H 9265 7746 50  0000 L CNN
+F 1 "C_1u" H 9200 7600 50  0000 L CNN
+F 2 "wsolar:C_0805" H 9188 7550 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 9175 7800 50  0001 C CNN
+F 4 "C0805C105K4RACAUTO" H 9375 8000 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 9275 7900 50  0001 C CNN "Link"
+	1    9150 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:MCP1501_2v5 U5
+U 1 1 5EAE6333
+P 8250 8700
+F 0 "U5" H 8250 9065 50  0000 C CNN
+F 1 "MCP1501_2v5" H 8250 8974 50  0000 C CNN
+F 2 "wsolar:SOIC127P600X175-8N" H 8200 8950 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en584595" H 8200 8950 50  0001 C CNN
+F 4 "MCP1501T-25E/SN" H 8100 9050 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP1501T-25E-SN/MCP1501T-25E-SNCT-ND/9642931" H 8200 9150 50  0001 C CNN "Link"
+	1    8250 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 7500 2950 7500
+Wire Wire Line
+	2600 7500 2750 7500
+Connection ~ 2750 7500
+$Comp
+L wsolar:R_1k R1
+U 1 1 5E9092FB
+P 2750 7350
+F 0 "R1" H 2820 7396 50  0000 L CNN
+F 1 "R_1k" H 2820 7305 50  0000 L CNN
+F 2 "wsolar:R0805" V 2680 7350 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 2830 7350 50  0001 C CNN
+F 4 "ERA-6AEB102V" V 2930 7450 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" V 3030 7550 50  0001 C CNN "Link"
+	1    2750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:C_1u C2
+U 1 1 5E975BE5
+P 2250 7300
+F 0 "C2" H 2365 7346 50  0000 L CNN
+F 1 "C_1u" H 2300 7200 50  0000 L CNN
+F 2 "wsolar:C_0805" H 2288 7150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2275 7400 50  0001 C CNN
+F 4 "C0805C105K4RACAUTO" H 2475 7600 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 2375 7500 50  0001 C CNN "Link"
+	1    2250 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:C_0u1 C1
+U 1 1 5E975BDC
+P 1900 7300
+F 0 "C1" H 2015 7346 50  0000 L CNN
+F 1 "C_0u1" H 1950 7200 50  0000 L CNN
+F 2 "wsolar:C_0805" H 1938 7150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 1925 7400 50  0001 C CNN
+F 4 "C0805C104K5RACAUTO" H 2125 7600 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 2025 7500 50  0001 C CNN "Link"
+	1    1900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:MCP2210T-I_SO U1
+U 1 1 5E8DDE22
+P 3800 7800
+F 0 "U1" H 3800 8765 50  0000 C CNN
+F 1 "MCP2210T-I_SO" H 3800 8674 50  0000 C CNN
+F 2 "wsolar:SOIC127P1030X265-20N" H 3800 7800 50  0001 L BNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" H 3800 7800 50  0001 L BNN
+F 4 "MCP2210T-I/SS" H 3509 8722 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP2210T-I-SS/MCP2210T-I-SSCT-ND/8628832" H 3609 8822 50  0001 C CNN "Link"
+	1    3800 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:USB_C_Receptacle J1
+U 1 1 5E7FE4AE
+P 1850 3250
+F 0 "J1" H 1955 4817 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 1955 4726 50  0000 C CNN
+F 2 "wsolar:MOLEX_105450-0101" H 2000 3250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf" H 2000 3250 50  0001 C CNN
+F 4 "1054500101" H 1550 4800 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/molex/1054500101/WM12856CT-ND/5843891" H 1650 4900 50  0001 C CNN "Link"
+	1    1850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:USB_C_Receptacle J2
+U 1 1 5E7FE5E7
+P 9400 3200
+F 0 "J2" H 9505 4767 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 9505 4676 50  0000 C CNN
+F 2 "wsolar:MOLEX_105450-0101" H 9550 3200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf" H 9550 3200 50  0001 C CNN
+F 4 "1054500101" H 9100 4750 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/molex/1054500101/WM12856CT-ND/5843891" H 9200 4850 50  0001 C CNN "Link"
+	1    9400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:UTC2000-I_MG U2
+U 1 1 5E94A443
+P 5450 3550
+F 0 "U2" H 5400 4415 50  0000 C CNN
+F 1 "UTC2000-I_MG" H 5400 4324 50  0000 C CNN
+F 2 "wsolar:QFN50P300X300X90-17N" H 4850 2750 50  0001 L BNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en575231" H 4750 2750 50  0001 L BNN
+F 4 "UTC2000-I/MG" H 4950 3200 50  0001 L BNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/microchip-technology/UTC2000-I-MG/UTC2000-I-MG-ND/5639493" H 4700 2800 50  0001 L BNN "Link"
+	1    5450 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3250
+$Comp
+L wsolar:C_0u1 C8
+U 1 1 5E94A579
+P 6600 3100
+F 0 "C8" H 6715 3146 50  0000 L CNN
+F 1 "C_0u1" H 6715 3055 50  0000 L CNN
+F 2 "wsolar:C_0805" H 6638 2950 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 6625 3200 50  0001 C CNN
+F 4 "C0805C104K5RACAUTO" H 6825 3400 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 6725 3300 50  0001 C CNN "Link"
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:R_1k R20
+U 1 1 5EBABE25
+P 14300 2000
+F 0 "R20" H 14370 2046 50  0000 L CNN
+F 1 "R_1k" H 14370 1955 50  0000 L CNN
+F 2 "wsolar:R0805" V 14230 2000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 14380 2000 50  0001 C CNN
+F 4 "ERA-6AEB102V" V 14480 2100 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" V 14580 2200 50  0001 C CNN "Link"
+	1    14300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:Jumper_NO_Small JP1
+U 1 1 5E9CEDF1
+P 2500 7500
+F 0 "JP1" H 2500 7300 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2500 7400 50  0000 C CNN
+F 2 "wsolar:jumper_2" H 2400 7480 50  0001 C CNN
+F 3 "~" H 2500 7580 50  0001 C CNN
+	1    2500 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 8700 7350 8700
+Wire Wire Line
+	7400 8600 7650 8600
+Connection ~ 6600 2950
+Wire Wire Line
+	6600 2800 6600 2950
+Wire Wire Line
+	11900 6500 11900 6600
+$Comp
+L wsolar:Jumper_NO_Small JP2
+U 1 1 5ED9C9E8
+P 11900 6700
+F 0 "JP2" V 11946 6652 50  0000 R CNN
+F 1 "Jumper_NO_Small" H 12200 6800 50  0000 R CNN
+F 2 "wsolar:jumper_2" H 11800 6680 50  0001 C CNN
+F 3 "~" H 11900 6780 50  0001 C CNN
+	1    11900 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12250 6500 12700 6500
+Connection ~ 12700 6500
+$Comp
+L wsolar:C_1n C16
+U 1 1 5EB60AC5
+P 12700 6650
+F 0 "C16" H 12815 6696 50  0000 L CNN
+F 1 "C_1n" H 12815 6605 50  0000 L CNN
+F 2 "wsolar:C_0805" H 12738 6500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 12725 6750 50  0001 C CNN
+F 4 "C0805C102J5GACTU" H 12925 6950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C102J5GACTU/399-1136-1-ND/411411" H 12825 6850 50  0001 C CNN "Link"
+	1    12700 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:R_39k4 R17
+U 1 1 5EA6EB4B
+P 12250 6700
+F 0 "R17" H 12320 6746 50  0000 L CNN
+F 1 "R_39k4" H 12320 6655 50  0000 L CNN
+F 2 "wsolar:R0805" V 12180 6700 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 12330 6700 50  0001 C CNN
+F 4 "CRG0805F12K" V 12430 6800 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3922V/P39-2KDADKR-ND/3075510" V 12530 6900 50  0001 C CNN "Link"
+	1    12250 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 6800 13100 6800
+Wire Wire Line
+	13100 6800 13300 6800
+Connection ~ 13100 6800
+Wire Wire Line
+	12700 6500 13100 6500
+Connection ~ 13100 6500
+$Comp
+L wsolar:C_0u1 C17
+U 1 1 5E81F511
+P 13100 6650
+F 0 "C17" H 13215 6696 50  0000 L CNN
+F 1 "C_0u1" H 13150 6550 50  0000 L CNN
+F 2 "wsolar:C_0805" H 13138 6500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 13125 6750 50  0001 C CNN
+F 4 "C0805C104K5RACAUTO" H 13325 6950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 13225 6850 50  0001 C CNN "Link"
+	1    13100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 6800 13500 6800
+Connection ~ 13500 6800
+Wire Wire Line
+	13100 6500 13500 6500
+Wire Wire Line
+	13500 6500 13800 6500
+Connection ~ 13500 6500
+$Comp
+L wsolar:C_1u C19
+U 1 1 5E81F41C
+P 13500 6650
+F 0 "C19" H 13615 6696 50  0000 L CNN
+F 1 "C_1u" H 13550 6550 50  0000 L CNN
+F 2 "wsolar:C_0805" H 13538 6500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 13525 6750 50  0001 C CNN
+F 4 "C0805C105K4RACAUTO" H 13725 6950 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 13625 6850 50  0001 C CNN "Link"
+	1    13500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:C_0u1 C14
+U 1 1 5EAF35D0
+P 11150 2250
+F 0 "C14" H 11265 2296 50  0000 L CNN
+F 1 "C_0u1" H 11200 2150 50  0000 L CNN
+F 2 "wsolar:C_0805" H 11188 2100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 11175 2350 50  0001 C CNN
+F 4 "C0805C104K5RACAUTO" H 11375 2550 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 11275 2450 50  0001 C CNN "Link"
+	1    11150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:C_1u C15
+U 1 1 5EAF35C7
+P 11550 2250
+F 0 "C15" H 11665 2296 50  0000 L CNN
+F 1 "C_1u" H 11600 2150 50  0000 L CNN
+F 2 "wsolar:C_0805" H 11588 2100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 11575 2350 50  0001 C CNN
+F 4 "C0805C105K4RACAUTO" H 11775 2550 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 11675 2450 50  0001 C CNN "Link"
+	1    11550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:C_10u C13
+U 1 1 5E975BD3
+P 10750 2250
+F 0 "C13" H 10865 2296 50  0000 L CNN
+F 1 "C_10u" H 10750 2150 50  0000 L CNN
+F 2 "wsolar:C_0805" H 10788 2100 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 10775 2350 50  0001 C CNN
+F 4 "C0805C106K8RACAUTO" H 10975 2550 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8RACAUTO/399-15687-1-ND/7427567" H 10875 2450 50  0001 C CNN "Link"
+	1    10750 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 13100 2500
+Wire Wire Line
+	13100 2500 13100 2650
+$Comp
+L power:GND #PWR037
+U 1 1 5E928643
+P 13100 2650
+F 0 "#PWR037" H 13100 2400 50  0001 C CNN
+F 1 "GND" H 13105 2477 50  0000 C CNN
+F 2 "" H 13100 2650 50  0001 C CNN
+F 3 "" H 13100 2650 50  0001 C CNN
+	1    13100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:TestPoint TP1
+U 1 1 5E9190FE
+P 12300 2500
+F 0 "TP1" H 12358 2620 50  0000 L CNN
+F 1 "TestPoint" H 12358 2529 50  0000 L CNN
+F 2 "wsolar:TP" H 12500 2500 50  0001 C CNN
+F 3 "N/A" H 12500 2500 50  0001 C CNN
+	1    12300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 2500 13100 2500
+Wire Wire Line
+	12300 2500 12800 2500
+Connection ~ 12800 2500
+$Comp
+L wsolar:TestPoint TP2
+U 1 1 5E919052
+P 12800 2500
+F 0 "TP2" H 12858 2620 50  0000 L CNN
+F 1 "TestPoint" H 12858 2529 50  0000 L CNN
+F 2 "wsolar:TP" H 13000 2500 50  0001 C CNN
+F 3 "N/A" H 13000 2500 50  0001 C CNN
+	1    12800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:TestPoint TP4
+U 1 1 5E918FB2
+P 13800 2500
+F 0 "TP4" H 13858 2620 50  0000 L CNN
+F 1 "TestPoint" H 13858 2529 50  0000 L CNN
+F 2 "wsolar:TP" H 14000 2500 50  0001 C CNN
+F 3 "N/A" H 14000 2500 50  0001 C CNN
+	1    13800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 2500 13300 2500
+Wire Wire Line
+	13800 2500 13300 2500
+Connection ~ 13300 2500
+$Comp
+L wsolar:TestPoint TP3
+U 1 1 5E918EEC
+P 13300 2500
+F 0 "TP3" H 13358 2620 50  0000 L CNN
+F 1 "TestPoint" H 13358 2529 50  0000 L CNN
+F 2 "wsolar:TP" H 13500 2500 50  0001 C CNN
+F 3 "N/A" H 13500 2500 50  0001 C CNN
+	1    13300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:LMC6482 U4
+U 1 1 5EA1C400
+P 13800 7250
+F 0 "U4" H 13850 7617 50  0000 C CNN
+F 1 "LMC6482" H 13850 7526 50  0000 C CNN
+F 2 "wsolar:LMC6482AIMX&slash_NOPB" H 13800 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmc6482.pdf" H 13800 7500 50  0001 C CNN
+F 4 "LMC6482AIMX/NOPB" H 14050 7500 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/LMC6482AIMX-NOPB/LMC6482AIMX-NOPBCT-ND/3440139" H 14150 7600 50  0001 C CNN "Link"
+	1    13800 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 6800 14000 6800
+$Comp
+L wsolar:LMC6482 U4
+U 2 1 5EA1C5C7
+P 15850 6950
+F 0 "U4" H 15908 6921 50  0000 L CNN
+F 1 "LMC6482" H 15908 6830 50  0000 L CNN
+F 2 "wsolar:LMC6482AIMX&slash_NOPB" H 15850 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmc6482.pdf" H 15850 7200 50  0001 C CNN
+F 4 "LMC6482AIMX/NOPB" H 16100 7200 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/LMC6482AIMX-NOPB/LMC6482AIMX-NOPBCT-ND/3440139" H 16200 7300 50  0001 C CNN "Link"
+	2    15850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:LMC6482 U4
+U 3 1 5EA1C6E3
+P 14000 6450
+F 0 "U4" H 14050 6817 50  0000 C CNN
+F 1 "LMC6482" H 14050 6726 50  0000 C CNN
+F 2 "wsolar:LMC6482AIMX&slash_NOPB" H 14000 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmc6482.pdf" H 14000 6700 50  0001 C CNN
+F 4 "LMC6482AIMX/NOPB" H 14250 6700 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/texas-instruments/LMC6482AIMX-NOPB/LMC6482AIMX-NOPBCT-ND/3440139" H 14350 6800 50  0001 C CNN "Link"
+	3    14000 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 15600 7050
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EA31187
+P 10200 2200
+F 0 "#FLG0101" H 10200 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 10200 2373 50  0000 C CNN
+F 2 "" H 10200 2200 50  0001 C CNN
+F 3 "~" H 10200 2200 50  0001 C CNN
+	1    10200 2200
+	0    1    1    0   
+$EndComp
+Connection ~ 10200 2200
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5EA31304
+P 2600 2250
+F 0 "#FLG0104" H 2600 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 2600 2423 50  0000 C CNN
+F 2 "" H 2600 2250 50  0001 C CNN
+F 3 "~" H 2600 2250 50  0001 C CNN
+	1    2600 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 2250
+Wire Wire Line
+	15600 6850 15600 7050
+Connection ~ 3100 1950
+Wire Wire Line
+	3100 1950 3450 1950
+Connection ~ 3450 1950
+Wire Wire Line
+	3450 1950 3800 1950
+Wire Wire Line
+	14350 8300 14650 8300
+Connection ~ 14350 8300
+Wire Wire Line
+	14350 8300 14350 8400
+Connection ~ 14650 8300
+Wire Wire Line
+	14650 8300 14650 8400
+Wire Notes Line
+	16350 9000 12000 9000
+Wire Notes Line
+	12000 9000 12000 7400
+Wire Notes Line
+	12000 7400 11600 7400
+Wire Notes Line
+	16350 950  16350 9000
+Wire Notes Line
+	16350 950  11600 950 
+Wire Notes Line
+	11600 950  11600 7400
+Text Notes 13550 3900 0    79   ~ 0
+Priotized Soldering
 $EndSCHEMATC

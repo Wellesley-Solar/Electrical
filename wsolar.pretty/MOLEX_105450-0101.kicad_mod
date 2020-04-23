@@ -1,6 +1,6 @@
-(module MOLEX_105450-0101 (layer F.Cu) (tedit 5E7FD15B)
+(module MOLEX_105450-0101 (layer F.Cu) (tedit 5E9B84E8)
   (fp_text reference REF** (at -1.899125 -5.722835) (layer F.SilkS)
-    (effects (font (size 1.003598 1.003598) (thickness 0.015)))
+    (effects (font (size 1.003598 1.003598) (thickness 0.18)))
   )
   (fp_text value MOLEX_105450-0101 (at 5.748805 5.717805) (layer F.Fab)
     (effects (font (size 1.003504 1.003504) (thickness 0.015)))

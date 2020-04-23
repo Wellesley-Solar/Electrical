@@ -1,6 +1,6 @@
-(module RESC2920 (layer F.Cu) (tedit 5E8D0854)
+(module RESC2920 (layer F.Cu) (tedit 5E9B848E)
   (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
-    (effects (font (size 1.000732 1.000732) (thickness 0.015)))
+    (effects (font (size 1.000732 1.000732) (thickness 0.18)))
   )
   (fp_text value RESC2920 (at 0 3.81) (layer F.Fab)
     (effects (font (size 1.00074 1.00074) (thickness 0.015)))
