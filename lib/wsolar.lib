@@ -10,6 +10,7 @@ F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C104K5RACAUTO" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" 125 200 50 H I C CNN "Link"
+F6 "0.20" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -30,6 +31,7 @@ F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C474K8RACTU" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kemet/C0805C474K8RACTU/399-9247-1-ND/3522765" 125 200 50 H I C CNN "Link"
+F6 "0.21" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -50,6 +52,7 @@ F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C106K8RACAUTO" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kemet/C0805C106K8RACAUTO/399-15687-1-ND/7427567" 125 200 50 H I C CNN "Link"
+F6 "0.63" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -70,6 +73,7 @@ F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://api.kemet.com/component-edge/download/datasheet/C0805C120J5GACTU.pdf" 25 100 50 H I C CNN
 F4 "C0805C120J5GACTU" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kemet/C0805C120J5GACTU/399-1110-1-ND/411385" 125 200 50 H I C CNN "Link"
+F6 "0.15" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -90,6 +94,7 @@ F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C102J5GACTU" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kemet/C0805C102J5GACTU/399-1136-1-ND/411411" 125 200 50 H I C CNN "Link"
+F6 "0.13" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -110,6 +115,7 @@ F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C105K4RACAUTO" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" 125 200 50 H I C CNN "Link"
+F6 "0.20" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -130,6 +136,7 @@ F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C475K8PACTU" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kemet/C0805C475K8PACTU/399-3133-1-ND/551638" 125 200 50 H I C CNN "Link"
+F6 "0.26" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
 $ENDFPLIST
@@ -150,6 +157,7 @@ F2 "wsolar:Kyocera_Crystal" 25 100 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX3225SB_UKY1C-H1-16357-00_Spec.pdf" 125 200 50 H I C CNN
 F4 "CX3225SB12000H0FLJCC" 225 300 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/kyocera-international-inc-electronic-components/CX3225SB12000H0FLJCC/1253-1734-1-ND/6123361" 325 400 50 H I C CNN "Link"
+F6 "0.72" 425 500 79 H I C CNN "Unit Price"
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -170,15 +178,16 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DAC8551IDGKT
+# DAC6551AQDGKRQ1
 #
-DEF DAC8551IDGKT U 0 40 Y Y 1 F N
+DEF DAC6551AQDGKRQ1 U 0 40 Y Y 1 F N
 F0 "U" -224 587 50 H V L BNN
-F1 "DAC8551IDGKT" -172 -817 50 H V L BNN
-F2 "wsolar:S-PDSO-G8" 0 0 50 H I L BNN
-F3 "http://www.ti.com/lit/ds/symlink/dac8551.pdf" 0 0 50 H I L BNN
-F4 "DAC8551IDGKT" 0 0 50 H I L BNN "Mfr. #"
-F5 "https://www.digikey.com/product-detail/en/texas-instruments/DAC8551IDGKT/296-18290-1-ND/807620" -24 787 50 H I L BNN "Link"
+F1 "DAC6551AQDGKRQ1" -172 -817 50 H V L BNN
+F2 "wsolar:SOP65P490X110-9N" 0 0 50 H I L BNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdac6551-q1" 0 0 50 H I L BNN
+F4 "DAC6551AQDGKRQ1" 0 0 50 H I L BNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/texas-instruments/DAC6551AQDGKRQ1/296-45314-1-ND/6609855" -24 787 50 H I L BNN "Link"
+F6 "3.73000" 76 887 79 H I C CNN "Unit Price"
 DRAW
 T 0 0 -250 118 0 0 0 DAC Italic 0 C C
 S 500 500 -500 -700 0 0 16 f
@@ -193,6 +202,80 @@ X GND 8 -700 -500 200 R 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
+# DAC8551IDGKT
+#
+DEF DAC8551IDGKT U 0 40 Y Y 1 F N
+F0 "U" -224 587 50 H V L BNN
+F1 "DAC8551IDGKT" -172 -817 50 H V L BNN
+F2 "wsolar:S-PDSO-G8" 0 0 50 H I L BNN
+F3 "http://www.ti.com/lit/ds/symlink/dac8551.pdf" 0 0 50 H I L BNN
+F4 "DAC8551IDGKT" 0 0 50 H I L BNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/texas-instruments/DAC8551IDGKT/296-18290-1-ND/807620" -24 787 50 H I L BNN "Link"
+F6 "6.91" 76 887 79 H I C CNN "Unit Price"
+DRAW
+T 0 0 -250 118 0 0 0 DAC Italic 0 C C
+S 500 500 -500 -700 0 0 16 f
+X VDD 1 -700 300 200 R 40 40 0 0 W
+X VREF 2 -700 100 200 R 40 40 0 0 I
+X VFB 3 700 -500 200 L 40 40 0 0 I
+X VOUT 4 700 300 200 L 40 40 0 0 O
+X ~SYNC 5 -700 0 200 R 40 40 0 0 I I
+X SCLK 6 -700 -100 200 R 40 40 0 0 I
+X DIN 7 -700 -200 200 R 40 40 0 0 I
+X GND 8 -700 -500 200 R 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# D_Schottky
+#
+DEF D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
+F2 "wsolar:SOD123F" -100 0 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PMEG3015EH_EJ.pdf" 0 100 50 H I C CNN
+F4 "PMEG3015EH,115" 300 400 79 H I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG3015EH-115/1727-3871-1-ND/1589942" 200 300 79 H I C CNN "Link"
+F6 "0.39" 300 400 79 H I C CNN "Unit Price"
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener_5v6
+#
+DEF D_Zener_5v6 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener_5v6" 0 -100 50 H V C CNN
+F2 "wsolar:SOD123" -200 100 50 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/MMSZ5221BT1-D.PDF" 0 100 50 H I C CNN
+F4 "SZMMSZ5232BT1G" 100 200 79 H I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/on-semiconductor/SZMMSZ5232BT1G/SZMMSZ5232BT1GOSCT-ND/5969256" 200 300 79 H I C CNN "Link"
+F6 "0.29" 300 400 79 H I C CNN "Unit Price"
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FT4222HQ-D-T
 #
 DEF FT4222HQ-D-T U 0 40 Y Y 1 F N
@@ -202,6 +285,7 @@ F2 "wsolar:QFN50P500X500X100-33N" -1450 950 50 H I C CNN
 F3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf" -1450 950 50 H I C CNN
 F4 "FT4222HQ-D-T" -400 1150 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4222HQ-D-T/768-1363-ND/8753390" -500 1050 50 H I C CNN "Link"
+F6 "7.04" -300 1250 79 H I C CNN "Unit Price"
 DRAW
 S 600 -1000 -650 900 0 1 0 f
 X DEBUGGER 1 -850 200 200 R 50 50 1 1 B
@@ -239,6 +323,23 @@ X MISO 9 800 400 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Jumper_3
+#
+DEF Jumper_3 JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_3" 50 0 50 H V C CNN
+F2 "wsolar:jumper_3" 0 -50 50 H I C CNN
+F3 "" 0 80 50 H I C CNN
+DRAW
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+C 0 -85 20 1 1 0 N
+X ~ 2 -100 0 40 R 50 50 0 1 P
+X ~ 3 100 0 40 L 50 50 0 1 P
+X ~ 1 0 -150 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Jumper_NO_Small
 #
 DEF Jumper_NO_Small JP 0 30 N N 1 F N
@@ -263,6 +364,7 @@ F2 "wsolar:LED0805" -100 0 50 H I C CNN
 F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493888/LH%20R974.pdf" 0 100 50 H I C CNN
 F4 "LH R974-LP-1" 100 200 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604" 200 300 50 H I C CNN "Link"
+F6 "0.26" 300 400 79 H I C CNN "Unit Price"
 $FPLIST
  LED*
  LED_SMD:*
@@ -288,6 +390,7 @@ F2 "wsolar:SST-20-A120" -100 125 50 H I C CNN
 F3 "https://download.luminus.com/datasheets/Luminus_SST-20-B_Datasheet.pdf" 0 225 50 H I C CNN
 F4 "SST-20-B-A120-R450" 100 325 50 H I C CNN "Mfr. #"
 F5 "https://www.mouser.com/ProductDetail/Luminus-Devices/SST-20-B-A120-R450?qs=sGAEpiMZZMu4Prknbu83y0haVN0vvCk8CQenq30GalEGyXieXGhMPA%3D%3D" 200 425 50 H I C CNN "Link"
+F6 "2.06" 300 525 79 H I C CNN "Unit Price"
 $FPLIST
  LED*
  LED_SMD:*
@@ -316,6 +419,7 @@ F2 "wsolar:LMC6482AIMX&slash_NOPB" 0 250 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/lmc6482.pdf" 0 250 50 H I C CNN
 F4 "LMC6482AIMX/NOPB" 250 250 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/texas-instruments/LMC6482AIMX-NOPB/LMC6482AIMX-NOPBCT-ND/3440139" 350 350 50 H I C CNN "Link"
+F6 "1.89" 400 450 79 H I C CNN "Unit Price"
 DRAW
 P 4 1 1 10 -150 200 250 0 -150 -200 -150 200 f
 P 4 2 1 10 -150 200 250 0 -150 -200 -150 200 f
@@ -339,6 +443,7 @@ F2 "wsolar:SOIC127P600X175-8N" -50 250 50 H I C CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en584595" -50 250 50 H I C CNN
 F4 "MCP1501T-25E/SN" -150 350 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP1501T-25E-SN/MCP1501T-25E-SNCT-ND/9642931" -50 450 50 H I C CNN "Link"
+F6 "0.78" 50 550 79 H I C CNN "Unit Price"
 DRAW
 S -400 200 400 -300 0 1 0 f
 X VDD 1 -600 100 200 R 50 50 1 1 W
@@ -361,6 +466,7 @@ F2 "wsolar:SOIC127P1030X265-20N" 0 0 50 H I L BNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" 0 0 50 H I L BNN
 F4 "MCP2210T-I/SS" -291 922 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP2210T-I-SS/MCP2210T-I-SSCT-ND/8628832" -191 1022 50 H I C CNN "Link"
+F6 "1.94" -91 1122 79 H I C CNN "Unit Price"
 DRAW
 S -400 800 400 -900 1 1 0 f
 X VDD 1 -600 700 200 R 40 40 0 0 W
@@ -395,6 +501,7 @@ F2 "wsolar:Power_SO8" 200 100 50 H I C CNN
 F3 "https://assets.nexperia.com/documents/data-sheet/PSMN011-30YLC.pdf" 200 50 50 H I C CNN
 F4 "PSMN011-30YLC,115" 400 250 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PSMN011-30YLC-115/1727-6495-1-ND/2785363" 300 150 50 H I C CNN "Link"
+F6 "0.50" 500 350 79 H I C CNN "Unit Price"
 DRAW
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
@@ -429,6 +536,7 @@ F2 "wsolar:RESC3216X125N" -70 0 50 V I C CNN
 F3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" 100 -100 50 V I C CNN
 F4 "0ZCJ0100FF2E" 200 0 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0100FF2E/507-1806-1-ND/4156243" 300 100 50 V I C CNN "Link"
+F6 "0.21" 400 200 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -443,12 +551,13 @@ ENDDEF
 # PTC_1A5
 #
 DEF PTC_1A5 R 0 0 N Y 1 F N
-F0 "R" 100 -100 50 V V L CNN
+F0 "R" 100 -100 50 V I L CNN
 F1 "PTC_1A5" -100 -200 50 V V L CNN
 F2 "wsolar:RESC2920" -70 0 50 V I C CNN
 F3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcf-series.pdf" 100 -100 50 V I C CNN
 F4 "0ZCF0150FF2C" 200 0 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCF0150FF2C/507-1746-1-ND/4156178" 300 100 50 V I C CNN "Link"
+F6 "0.28" 400 200 79 V V C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -469,6 +578,7 @@ F2 "wsolar:RESC3216X125N" -70 0 50 V I C CNN
 F3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf" 100 -100 50 V I C CNN
 F4 "0ZCJ0050FF2G" 200 0 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0050FF2G/507-1802-1-ND/4156236" 300 100 50 V I C CNN "Link"
+F6 "0.13" 400 200 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -489,6 +599,7 @@ F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "ERA-6AEB103V" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB103V/P10KDACT-ND/1465971" 280 200 50 V I C CNN "Link"
+F6 "0.36" 380 300 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -508,6 +619,7 @@ F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 80 0 50 V I C CNN
 F4 "CRG0805F12K" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRG0805F12K/A126337CT-ND/7603392" 280 200 50 V I C CNN "Link"
+F6 "0.10" 380 300 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -527,6 +639,7 @@ F2 "wsolar:R_2512_2W" -70 0 50 V I C CNN
 F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773269&DocType=DS&DocLang=English" 80 0 50 V I C CNN
 F4 "RLP73K3A1R0FTDF" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RLP73K3A1R0FTDF/A109718CT-ND/4032484" 280 200 50 V I C CNN "Link"
+F6 "0.71" 380 300 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -546,6 +659,7 @@ F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "ERA-6AEB102V" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1-0KDACT-ND/1465947" 280 200 50 V I C CNN "Link"
+F6 "0.36" 380 300 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -565,6 +679,7 @@ F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "ERJ-PB6D3572V" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D3572V/P21194CT-ND/6215449" 280 200 50 V I C CNN "Link"
+F6 "0.25" 380 300 79 V V C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -575,15 +690,16 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_39k4
+# R_39k2
 #
-DEF R_39k4 R 0 0 N Y 1 F N
+DEF R_39k2 R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R_39k4" -100 0 50 V V C CNN
+F1 "R_39k2" -100 0 50 V V C CNN
 F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "CRG0805F12K" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3922V/P39-2KDADKR-ND/3075510" 280 200 50 V I C CNN "Link"
+F6 "0.34" 380 300 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -603,6 +719,7 @@ F2 "wsolar:R0805" -70 0 50 V I C CNN
 F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 80 0 50 V I C CNN
 F4 "ERJ-PB6D5101V" 180 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D5101V/P21099CT-ND/6215354" 280 200 50 V I C CNN "Link"
+F6 "0.25" 380 300 79 V I C CNN "Unit Price"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -622,6 +739,7 @@ F2 "wsolar:POT_3352W" -275 -100 50 V I C CNN
 F3 "https://www.bourns.com/docs/Product-Datasheets/3352.pdf" -175 0 50 V I C CNN
 F4 "3352W-1-103LF" -75 100 50 V I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/bourns-inc/3352W-1-103LF/3352W-103LF-ND/1088355" 25 200 50 V I C CNN "Link"
+F6 "2.15" 125 300 79 V I C CNN "Unit Price"
 $FPLIST
  Potentiometer*
 $ENDFPLIST
@@ -632,6 +750,27 @@ P 3 0 1 0 45 0 90 20 90 -20 F
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
 X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_SPDT
+#
+DEF SW_SPDT SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "SW_SPDT" 0 -200 50 H V C CNN
+F2 "wsolar:Slide_Switch_SPDT" -100 70 50 H I C CNN
+F3 "https://www.ckswitches.com/media/1428/os.pdf" 0 170 50 H I C CNN
+F4 "OS102011MS2QN1" 200 370 79 H I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/c-k/OS102011MS2QN1/CKN9565-ND/411602" 100 270 79 H I C CNN "Link"
+F6 "0.51" 300 470 79 H I C CNN "Unit Price"
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -666,6 +805,45 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# USB_B_Micro
+#
+DEF USB_B_Micro J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "USB_B_Micro" -200 350 50 H V L CNN
+F2 "wsolar:FCI_10118193-0001LF" 150 -50 50 H I C CNN
+F3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf" 150 -50 50 H I C CNN
+F4 "10118193-0001LF" 0 650 79 H I C CNN "Mfr. #"
+F5 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380" -100 550 79 H I C CNN "Link"
+F6 "0.43" 100 750 79 H I C CNN "Unit Price"
+ALIAS USB_B_Mini
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -205 170 -195 0 1 0 N
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # USB_C_Receptacle
 #
 DEF USB_C_Receptacle J 0 40 Y Y 1 F N
@@ -675,6 +853,7 @@ F2 "wsolar:MOLEX_105450-0101" 150 0 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf" 150 0 50 H I C CNN
 F4 "1054500101" -300 1550 50 H I C CNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/molex/1054500101/WM12856CT-ND/5843891" -200 1650 50 H I C CNN "Link"
+F6 "2.15" -100 1750 79 H I C CNN "Unit Price"
 $FPLIST
  USB*C*Receptacle*
 $ENDFPLIST
@@ -757,6 +936,7 @@ F2 "wsolar:QFN50P300X300X90-17N" -600 -800 50 H I L BNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en575231" -700 -800 50 H I L BNN
 F4 "UTC2000-I/MG" -500 -350 50 H I L BNN "Mfr. #"
 F5 "https://www.digikey.com/product-detail/en/microchip-technology/UTC2000-I-MG/UTC2000-I-MG-ND/5639493" -750 -750 50 H I L BNN "Link"
+F6 "1.11" -500 1050 79 H I C CNN "Unit Price"
 DRAW
 S -800 700 700 -600 0 1 0 f
 X OCS# 1 -1000 600 200 R 40 40 0 0 I

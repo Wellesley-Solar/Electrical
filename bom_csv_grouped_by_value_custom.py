@@ -42,7 +42,7 @@ out.writerow(['Date:', net.getDate()])
 out.writerow(['Tool:', net.getTool()])
 out.writerow( ['Generator:', sys.argv[0]] )
 out.writerow(['Component Count:', len(net.components)])
-out.writerow(['Ref', 'Qnty', 'Value', 'Cmp name', 'Mfr. #', 'Link', 'Footprint', 'Vendor'])
+out.writerow(['Ref', 'Qnty', 'Value', 'Cmp name', 'Mfr. #', 'Link', 'Unit Price', 'Footprint', 'Vendor'])
 
 # Get all of the components in groups of matching parts + values
 # (see ky_generic_netlist_reader.py)
@@ -60,7 +60,7 @@ for group in grouped:
 
     # Fill in the component groups common data
     out.writerow([refs, len(group), c.getValue(), c.getPartName(), c.getField("Mfr. #"),
-        c.getField("Link"),c.getFootprint(),
+        c.getField("Link"),c.getField("Unit Price"),c.getFootprint(),
         c.getDescription(), c.getField("Vendor")])
 
 
