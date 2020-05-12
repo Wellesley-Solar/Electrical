@@ -1,4 +1,4 @@
-"Ref","Qnty","Value","Cmp name","Mfr. #","Link","Footprint"
+"Ref","Qnty","Value","Cmp name","Mfr. #","Link","Footprint","goo","doo"
 "C3, C4, ","2","C_12p","C_12p","C0805C120J5GACTU","https://www.digikey.com/product-detail/en/kemet/C0805C120J5GACTU/399-1110-1-ND/411385","wsolar:C_0805","Unpolarized capacitor",""
 "C5, C11, ","2","C_0u47","C_0u47","C0805C474K8RACTU","https://www.digikey.com/product-detail/en/kemet/C0805C474K8RACTU/399-9247-1-ND/3522765","wsolar:C_0805","Unpolarized capacitor",""
 "C7, C21, C13, ","3","C_10u","C_10u","C0805C106K8RACAUTO","https://www.digikey.com/product-detail/en/kemet/C0805C106K8RACAUTO/399-15687-1-ND/7427567","wsolar:C_0805","Unpolarized capacitor",""
