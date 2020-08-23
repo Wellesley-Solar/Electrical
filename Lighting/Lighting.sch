@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Lighting-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -199,7 +200,7 @@ F 1 "C_1u" H 13850 5150 50  0000 L CNN
 F 2 "wsolar:C_0805" H 13838 5100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 13825 5350 50  0001 C CNN
 F 4 "C0805C105K4RACAUTO" H 14025 5550 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 13925 5450 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C105K5RACAUTO/399-6928-1-ND/3314438" H 13925 5450 50  0001 C CNN "Link"
 F 6 "0.20" H 0   0   50  0001 C CNN "Unit Price"
 	1    13800 5250
 	1    0    0    -1  
@@ -257,7 +258,7 @@ F 1 "C_1u" H 4400 2700 50  0000 L CNN
 F 2 "wsolar:C_0805" H 4388 2650 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 4375 2900 50  0001 C CNN
 F 4 "C0805C105K4RACAUTO" H 4575 3100 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 4475 3000 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C105K5RACAUTO/399-6928-1-ND/3314438" H 4475 3000 50  0001 C CNN "Link"
 F 6 "0.20" H 300 0   50  0001 C CNN "Unit Price"
 	1    4350 2800
 	1    0    0    -1  
@@ -1185,7 +1186,7 @@ F 1 "C_1u" H 9200 7600 50  0000 L CNN
 F 2 "wsolar:C_0805" H 9188 7550 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 9175 7800 50  0001 C CNN
 F 4 "C0805C105K4RACAUTO" H 9375 8000 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 9275 7900 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C105K5RACAUTO/399-6928-1-ND/3314438" H 9275 7900 50  0001 C CNN "Link"
 F 6 "0.20" H 0   0   50  0001 C CNN "Unit Price"
 	1    9150 7700
 	1    0    0    -1  
@@ -1232,7 +1233,7 @@ F 1 "C_1u" H 2300 7200 50  0000 L CNN
 F 2 "wsolar:C_0805" H 2288 7150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 2275 7400 50  0001 C CNN
 F 4 "C0805C105K4RACAUTO" H 2475 7600 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 2375 7500 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C105K5RACAUTO/399-6928-1-ND/3314438" H 2375 7500 50  0001 C CNN "Link"
 F 6 "0.20" H 0   0   50  0001 C CNN "Unit Price"
 	1    2250 7300
 	1    0    0    -1  
@@ -1344,7 +1345,7 @@ F 1 "C_1u" H 13550 6550 50  0000 L CNN
 F 2 "wsolar:C_0805" H 13538 6500 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 13525 6750 50  0001 C CNN
 F 4 "C0805C105K4RACAUTO" H 13725 6950 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 13625 6850 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C105K5RACAUTO/399-6928-1-ND/3314438" H 13625 6850 50  0001 C CNN "Link"
 F 6 "0.20" H 0   0   50  0001 C CNN "Unit Price"
 	1    13500 6650
 	1    0    0    -1  
@@ -1372,7 +1373,7 @@ F 1 "C_1u" H 10550 4050 50  0000 L CNN
 F 2 "wsolar:C_0805" H 10538 4000 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" H 10525 4250 50  0001 C CNN
 F 4 "C0805C105K4RACAUTO" H 10725 4450 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" H 10625 4350 50  0001 C CNN "Link"
+F 5 "https://www.digikey.com/product-detail/en/kemet/C0805C105K5RACAUTO/399-6928-1-ND/3314438" H 10625 4350 50  0001 C CNN "Link"
 F 6 "0.20" H 0   0   50  0001 C CNN "Unit Price"
 	1    10500 4150
 	1    0    0    -1  
@@ -1748,7 +1749,7 @@ F 0 "R5" H 12320 6746 50  0000 L CNN
 F 1 "R_39k2" H 12320 6655 50  0000 L CNN
 F 2 "wsolar:R0805" V 12180 6700 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" V 12330 6700 50  0001 C CNN
-F 4 "CRG0805F12K" V 12430 6800 50  0001 C CNN "Mfr. #"
+F 4 "ERA-6AEB3922V" V 12430 6800 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3922V/P39-2KDADKR-ND/3075510" V 12530 6900 50  0001 C CNN "Link"
 F 6 "0.34" V 12630 7000 79  0001 C CNN "Unit Price"
 	1    12250 6700

@@ -15,7 +15,7 @@
 "Q1, ","1","PSMN011","PSMN011","PSMN011-30YLC,115","https://www.digikey.com/product-detail/en/nexperia-usa-inc/PSMN011-30YLC-115/1727-6495-1-ND/2785363","0.50","wsolar:Power_SO8","Transistor N-MOSFET power",""
 "R2, R3, ","2","R_5k1","R_5k1","ERJ-PB6D5101V","https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB6D5101V/P21099CT-ND/6215354","0.25","wsolar:R0805","Resistor",""
 "R4, ","1","R_10k","R_10k","ERA-6AEB103V","https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB103V/P10KDACT-ND/1465971","0.36","wsolar:R0805","Resistor",""
-"R5, ","1","R_39k2","R_39k2","CRG0805F12K","https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3922V/P39-2KDADKR-ND/3075510","0.34","wsolar:R0805","Resistor",""
+"R5, ","1","R_39k2","R_39k2","ERA-6AEB3922V","https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB3922V/P39-2KDADKR-ND/3075510","0.34","wsolar:R0805","Resistor",""
 "R11, ","1","PTC_1A5","PTC_1A5","0ZCF0150FF2C","https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCF0150FF2C/507-1746-1-ND/4156178","0.28","wsolar:RESC2920","variable Resistor (Rheostat)",""
 "R16, ","1","PTC_1A","PTC_1A","0ZCJ0100FF2E","https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0100FF2E/507-1806-1-ND/4156243","0.21","wsolar:RESC3216X125N","variable Resistor (Rheostat)",""
 "R21, R18, R19, R22, ","4","R_1_2512","R_1_2512","RLP73K3A1R0FTDF","https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RLP73K3A1R0FTDF/A109718CT-ND/4032484","0.71","wsolar:R_2512_2W","Resistor",""
