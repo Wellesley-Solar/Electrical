@@ -114,7 +114,7 @@ F1 "C_1u" 25 -100 50 H V L CNN
 F2 "wsolar:C_0805" 38 -150 50 H I C CNN
 F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 25 100 50 H I C CNN
 F4 "C0805C105K4RACAUTO" 225 300 50 H I C CNN "Mfr. #"
-F5 "https://www.digikey.com/product-detail/en/kemet/C0805C104K5RACAUTO/399-6928-1-ND/3314438" 125 200 50 H I C CNN "Link"
+F5 "https://www.digikey.com/product-detail/en/kemet/C0805C105K5RACAUTO/399-6928-1-ND/3314438" 125 200 50 H I C CNN "Link"
 F6 "0.20" 325 400 79 H I C CNN "Unit Price"
 $FPLIST
  C_*
@@ -457,11 +457,11 @@ X FEEDBACK 8 600 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MCP2210T-I_SO
+# MCP2210T-I_SS
 #
-DEF MCP2210T-I_SO U 0 40 Y Y 1 F N
+DEF MCP2210T-I_SS U 0 40 Y Y 1 F N
 F0 "U" -391 822 50 H V L BNN
-F1 "MCP2210T-I_SO" -381 -973 50 H V L BNN
+F1 "MCP2210T-I_SS" -381 -973 50 H V L BNN
 F2 "wsolar:SOIC127P1030X265-20N" 0 0 50 H I L BNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" 0 0 50 H I L BNN
 F4 "MCP2210T-I/SS" -291 922 50 H I C CNN "Mfr. #"

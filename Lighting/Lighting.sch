@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Lighting-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -1253,20 +1252,6 @@ F 6 "0.20" H 0   0   50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L wsolar:MCP2210T-I_SO U1
-U 1 1 5E8DDE22
-P 3800 7800
-F 0 "U1" H 3800 8765 50  0000 C CNN
-F 1 "MCP2210T-I_SO" H 3800 8674 50  0000 C CNN
-F 2 "wsolar:SOIC127P1030X265-20N" H 3800 7800 50  0001 L BNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" H 3800 7800 50  0001 L BNN
-F 4 "MCP2210T-I/SS" H 3509 8722 50  0001 C CNN "Mfr. #"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP2210T-I-SS/MCP2210T-I-SSCT-ND/8628832" H 3609 8822 50  0001 C CNN "Link"
-F 6 "1.94" H 0   0   50  0001 C CNN "Unit Price"
-	1    3800 7800
-	1    0    0    -1  
-$EndComp
-$Comp
 L wsolar:R_1k R20
 U 1 1 5EBABE25
 P 14300 2000
@@ -1820,6 +1805,20 @@ F 4 "ERA-6AEB103V" V 12430 8150 50  0001 C CNN "Mfr. #"
 F 5 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB103V/P10KDACT-ND/1465971" V 12530 8250 50  0001 C CNN "Link"
 F 6 "0.36" V 12630 8350 79  0001 C CNN "Unit Price"
 	1    12250 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L wsolar:MCP2210T-I_SS U1
+U 1 1 5F43B9FA
+P 3800 7800
+F 0 "U1" H 3800 8765 50  0000 C CNN
+F 1 "MCP2210T-I_SS" H 3800 8674 50  0000 C CNN
+F 2 "wsolar:SOIC127P1030X265-20N" H 3800 7800 50  0001 L BNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf" H 3800 7800 50  0001 L BNN
+F 4 "MCP2210T-I/SS" H 3509 8722 50  0001 C CNN "Mfr. #"
+F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MCP2210T-I-SS/MCP2210T-I-SSCT-ND/8628832" H 3609 8822 50  0001 C CNN "Link"
+F 6 "1.94" H 3709 8922 79  0001 C CNN "Unit Price"
+	1    3800 7800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
